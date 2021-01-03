@@ -60,9 +60,11 @@
 				#else
 				 	<Layout Align='Right' Width='8' />
 					<Button Align='Right' Tooltip='$CMD_FULL_WINDOW' Cursor='HAND' CmdID='CMD_FULL_WINDOW' Width='25' ImageLeft='100' ImageTop='281' ImageWidth='25' ImageHeight='25' OffsetTop='-2' />
+					<Layout Align='Right' Width='10' />
 					<Button Align='Right' Tooltip='$CMD_MAX_WINDOW' Cursor='HAND' CmdID='CMD_MAX_WINDOW' Width='25' ImageLeft='200' ImageTop='281' ImageWidth='25' ImageHeight='25' OffsetTop='-2' />
 					<Button Align='Right' Tooltip='$CMD_RESTORE_WINDOW' Cursor='HAND' CmdID='CMD_RESTORE_WINDOW' Width='25' ImageLeft='300' ImageTop='281' ImageWidth='25' ImageHeight='25' OffsetTop='-2' />
 				#endif
+				<Layout Align='Right' Width='8' />
 				<Button Align='Right' Tooltip='$ID_OPEN_FILE' CmdID='ID_BASE_OPEN' Width='41' ImageLeft='0' ImageTop='341' ImageWidth='41' ImageHeight='40' />
 				<Button Align='Right' Tooltip='$CMD_ATTACH_WINDOW_OPEN' CmdID='CMD_ATTACH_WINDOW_OPEN' Width='41' ImageLeft='164' ImageTop='341' ImageWidth='41' ImageHeight='40' VisMinLeft='320' />
 				<Button Align='Right' Tooltip='$CMD_ATTACH_WINDOW_CLOSE' CmdID='CMD_ATTACH_WINDOW_CLOSE' Width='41' ImageLeft='164' ImageTop='341' ImageWidth='41' ImageHeight='40' VisMinLeft='320' />
