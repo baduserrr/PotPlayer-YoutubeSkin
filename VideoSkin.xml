@@ -23,7 +23,7 @@
 			#else
 				#include<BottomLeft.txt>
 				#include<Right.txt>
-				#include<RightAttach.txt>
+				#include<RightAttach.xml>
 			#endif
 			<Static Align='Client' Contain='CMD_VIDEO_WINDOW' />
 		</Control>
@@ -70,7 +70,7 @@
 				#include<BottomLeft.txt>
 				#include<Right.txt>
 				#include<TopCommon.xml>
-				#include<RightAttach.txt>
+				#include<RightAttach.xml>
 				#include<TopCast.xml>
 				#include<BottomVideo.xml>
 			#endif
