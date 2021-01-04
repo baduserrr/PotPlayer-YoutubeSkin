@@ -2,15 +2,15 @@
 
 <Skin Version='1.0' MinorVersion='1000'>
 
-	#include<Common.txt>
+	#include<Common.xml>
 
 #if<SkinType==Touch>
 	<MainSkinAreaOscFrame WidthLimit='380'
 #else
-	<MainSkinAreaOscFrame WidthLimit='320'
+	<MainSkinAreaOscFrame WidthLimit='540'
 #endif
-		HeightLimit='0' Image='Main.png' AlphaMode='1' UseWindowFrame='0' >
-		#include<Logo.txt>
+		HeightLimit='320' Image='Main.png' AlphaMode='1' UseWindowFrame='0' >
+		#include<Logo.xml>
 		<Control>
 			#if<SkinType==Touch>
 			    <ImageReplace Image='TouchMain.png' AlphaMode='1'>
@@ -29,7 +29,7 @@
 		</Control>
 	</MainSkinAreaOscFrame>
 	<MainSkinAreaOscInside Image='Main.png'>
-		#include<Logo.txt>
+		#include<Logo.xml>
 		<Control>
 			#if<SkinType==Touch>
 				#include<TouchTop.txt>
@@ -50,10 +50,10 @@
 #if<SkinType==Touch>
 	<MainSkinArea WidthLimit='380'
 #else
-	<MainSkinArea WidthLimit='320'
+	<MainSkinArea WidthLimit='540'
 #endif
-		HeightOffset='-1' HeightLimit='0' Image='Main.png' AlphaMode='1' UseWindowFrame='0'>
-		#include<Logo.txt>
+		HeightOffset='-1' HeightLimit='320' Image='Main.png' AlphaMode='1' UseWindowFrame='0'>
+		#include<Logo.xml>
 		<Control>
 			#if<SkinType==Touch>
 			    <ImageReplace Image='TouchMain.png' AlphaMode='1'>
@@ -82,6 +82,6 @@
 		</Control>
 	</MainSkinArea>
 
-	#include<SubCommon.txt #CONTROL1=Button #CONTROL2=Layout>
+	#include<SubCommon.xml #CONTROL1=Button #CONTROL2=Layout>
 
 </Skin>

@@ -58,29 +58,30 @@
 				#if<SkinName==AudioSkin>
 					<Button Align='Right' Tooltip='$CMD_LOAD_SKIN_XML_MIN' CmdID='CMD_LOAD_SKIN_XML' String='AudioMini.xml' Width='14' ImageLeft='488' ImageTop='798' ImageWidth='14' ImageHeight='13' Alignment='5' />
 				#else
-				 	<Layout Align='Right' Width='12' />
+				 	<Layout Align='Right' Width='20' />
 					<Button Align='Right' Tooltip='$CMD_FULL_WINDOW' Cursor='HAND' CmdID='CMD_FULL_WINDOW' Width='25' ImageLeft='100' ImageTop='281' ImageWidth='25' ImageHeight='25' OffsetTop='-2' />
 					<Layout Align='Right' Width='10' />
 					<Button Align='Right' Tooltip='$CMD_MAX_WINDOW' Cursor='HAND' CmdID='CMD_MAX_WINDOW' Width='25' ImageLeft='200' ImageTop='281' ImageWidth='25' ImageHeight='25' OffsetTop='-2' />
 					<Button Align='Right' Tooltip='$CMD_RESTORE_WINDOW' Cursor='HAND' CmdID='CMD_RESTORE_WINDOW' Width='25' ImageLeft='300' ImageTop='281' ImageWidth='25' ImageHeight='25' OffsetTop='-2' />
 				#endif
-				<Layout Align='Right' Width='8' />
+				<Layout Align='Right' Width='5' />
 				<Button Align='Right' Tooltip='$ID_OPEN_FILE' Cursor='HAND' CmdID='ID_BASE_OPEN' Width='25' ImageLeft='0' ImageTop='306' ImageWidth='25' ImageHeight='25' OffsetTop='-2' />
-				<Button Align='Right' Tooltip='$CMD_ATTACH_WINDOW_OPEN' Cursor='HAND' CmdID='CMD_ATTACH_WINDOW_OPEN' Width='25' ImageLeft='200' ImageTop='306' ImageWidth='25' ImageHeight='25' VisMinLeft='320' OffsetTop='-2' />
-				<Button Align='Right' Tooltip='$CMD_ATTACH_WINDOW_CLOSE' Cursor='HAND' CmdID='CMD_ATTACH_WINDOW_CLOSE' Width='25' ImageLeft='200' ImageTop='306' ImageWidth='25' ImageHeight='25' VisMinLeft='320' OffsetTop='-2' />
-				<Layout Align='Right' Width='8' />
+				<Layout Align='Right' Width='5' />
+				<Button Align='Right' Tooltip='$CMD_MEDIA_CLOSE' Cursor='HAND' CmdID='CMD_MEDIA_CLOSE' Width='25' ImageLeft='100' ImageTop='331' ImageWidth='25' ImageHeight='25' OffsetTop='-2' />
+				<Layout Align='Right' Width='5' />
 				<Button Align='Right' Tooltip='$ID_CONTROL_BOX_WINDOW' Cursor='HAND' CmdID='ID_CONTROL_BOX_WINDOW' DownFlag='1' Width='25' ImageLeft='200' ImageTop='306' ImageWidth='25' ImageHeight='25' VisMinLeft='320' OffsetTop='-2' />
-				<Layout Align='Right' Width='8' />
-				<Button Align='Right' Tooltip='$ID_PLAYLIST_WINDOW' Cursor='HAND' CmdID='ID_PLAYLIST_WINDOW' DownFlag='1' Width='25' ImageLeft='100' ImageTop='306' ImageWidth='25' ImageHeight='25' VisMinLeft='320' OffsetTop='-2' />
-				<Layout Align='Right' Width='8' />
+				<Layout Align='Right' Width='5' />
+				<Button Align='Right' Tooltip='$CMD_ATTACH_WINDOW_OPEN' Cursor='HAND' CmdID='CMD_ATTACH_WINDOW_OPEN' Width='25' ImageLeft='100' ImageTop='306' ImageWidth='25' ImageHeight='25' VisMinLeft='320' />
+				<Button Align='Right' Tooltip='$CMD_ATTACH_WINDOW_CLOSE' Cursor='HAND' CmdID='CMD_ATTACH_WINDOW_CLOSE' Width='25' ImageLeft='100' ImageTop='306' ImageWidth='25' ImageHeight='25' VisMinLeft='320' />
+				<Layout Align='Right' Width='5' />
 				<Button Align='Right' Tooltip='$CONTROL_CAPTION_SEL' Cursor='HAND' CmdID='ID_CAPTION_SELECT_MENU' DownFlag='1' Width='25' ImageLeft='300' ImageTop='306' ImageWidth='25' ImageHeight='25' VisMinLeft='320' OffsetTop='-2' />
-				<Layout Align='Right' Width='8' />
+				<Layout Align='Right' Width='5' />
 				<Button Align='Right' Tooltip='$MAIN_USE_EXPLORER' Cursor='HAND' CmdID='CMD_USE_EXPLORER' DownFlag='1' AutoVisible='100' Width='23' ImageLeft='0' ImageTop='423' ImageWidth='23' ImageHeight='22' VisMinLeft='350' />
 			#if<SkinName==VideoSkin>
 				<Layout Align='Right' Width='8' />
-				<Button Align='Right' Tooltip='$CMD_POPUPMENU_VIDEO_3D' CmdID='CMD_POPUPMENU_VIDEO_3D' Width='23' ImageLeft='101' ImageTop='455' ImageWidth='23' ImageHeight='22' VisMinLeft='350' AutoVisible='1' PopupMenuStyle='1' />
+				<Button Align='Right' Tooltip='$CMD_POPUPMENU_VIDEO_3D' Cursor='HAND' CmdID='CMD_POPUPMENU_VIDEO_3D' Width='23' ImageLeft='101' ImageTop='455' ImageWidth='23' ImageHeight='22' VisMinLeft='350' AutoVisible='1' PopupMenuStyle='1' />
 				<Layout Align='Right' Width='8' />
-				<Button Align='Right' Tooltip='$CMD_POPUPMENU_VIDEO_360VR' CmdID='CMD_POPUPMENU_VIDEO_360VR' Width='23' ImageLeft='0' ImageTop='455' ImageWidth='23' ImageHeight='22' VisMinLeft='350' AutoVisible='1' PopupMenuStyle='1' />
+				<Button Align='Right' Tooltip='$CMD_POPUPMENU_VIDEO_360VR' Cursor='HAND' CmdID='CMD_POPUPMENU_VIDEO_360VR' Width='25' ImageLeft='0' ImageTop='331' ImageWidth='25' ImageHeight='25' VisMinLeft='350' AutoVisible='1' PopupMenuStyle='1' OffsetTop='-2' />
 			#endif
 			#if<SkinName==DvdSkin>
 				<Layout Align='Right' Width='8' />

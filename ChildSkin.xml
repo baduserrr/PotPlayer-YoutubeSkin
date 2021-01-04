@@ -2,10 +2,10 @@
 
 <Skin Version='1.0' MinorVersion='1000'>
 
-	#include<Common.txt>
+	#include<Common.xml>
 
 	<MainSkinArea Image='Main.png' AlphaMode='1' WidthLimit='260' HeightLimit='0' UseWindowFrame='0'>
-		#include<Logo.txt>
+		#include<Logo.xml>
 		<Control>
 			#include<TopCast.xml>
 			#include<BottomVideo.xml>
@@ -17,6 +17,6 @@
 		</Control>
 	</MainSkinArea>
 
-	#include<SubCommon.txt #CONTROL1=Button #CONTROL2=Layout>
+	#include<SubCommon.xml #CONTROL1=Button #CONTROL2=Layout>
 
 </Skin>
