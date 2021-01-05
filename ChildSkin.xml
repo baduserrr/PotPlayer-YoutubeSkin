@@ -4,7 +4,7 @@
 
 	#include<Common.xml>
 
-	<MainSkinArea Image='Main.png' AlphaMode='1' WidthLimit='260' HeightLimit='0' UseWindowFrame='0'>
+	<MainSkinArea Image='Main.png' AlphaMode='1' WidthLimit='480' HeightLimit='0' UseWindowFrame='0'>
 		#include<Logo.xml>
 		<Control>
 			#include<TopCast.xml>

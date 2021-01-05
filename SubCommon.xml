@@ -186,6 +186,7 @@
 		</Control>
 	</ControlBoxSkinArea>
 #else
+	<!-- Control Box Setting -->
 	<ControlBoxSkinArea Image='Control.png' AlphaMode='1' Width='301' Height='227' UseWindowFrame='0' >
 		<Control>
 			<Static Align='Top' LeftMargin='10' RightMargin='10' Height='34' ImageLeft='0' ImageTop='563' ImageWidth='301' ImageHeight='34' AltImageLeft='949' AltImageTop='140' >
@@ -550,84 +551,90 @@
 		</Control>
 	</PlaylistSkinArea>
 #else
-	<PlaylistSkinArea Image='PlayList.png' AlphaMode='1' WidthLimit='300' HeightLimit='250'
-	  SelBkgndColorX='518' SelBkgndColorY='14' FrameColorX='518' FrameColorY='14'
-	  BkgndColor1X='518' BkgndColor1Y='48' BkgndColor2X='518' BkgndColor2Y='48'
-	  CurTextColorX='518' CurTextColorY='81' SelTextColorX='518' SelTextColorY='64' TextColorX='518' TextColorY='98' PlayedTextColorX='518' PlayedTextColorY='114'
-	  LineColorX='518' LineColorY='48'
-	  AlbumTabX='0' AlbumTabY='141' AlbumTabW='85' AlbumTabH='31'
-	  AlbumTabBtnX='0' AlbumTabBtnY='141' AlbumTabBtnW='85' AlbumTabBtnH='31' AlbumTabBtnMargin='0'
-	  AlbumTabTextX='518' AlbumTabTextY='146' AlbumTabSelTextX='518' AlbumTabSelTextY='130'
-	  AlbumTabDelX='0' AlbumTabDelY='121' AlbumTabDelW='10' AlbumTabDelH='9'
+	<!-- PlayList Setting -->
+	<PlaylistSkinArea Image='Main.png' AlphaMode='1' WidthLimit='300' HeightLimit='250'
+		SelBkgndColorX='30' SelBkgndColorY='4' FrameColorX='0' FrameColorY='4'
+	  BkgndColor1X='0' BkgndColor1Y='4' BkgndColor2X='0' BkgndColor2Y='4'
+	  CurTextColorX='165' CurTextColorY='4' SelTextColorX='0' SelTextColorY='4' TextColorX='75' TextColorY='4' PlayedTextColorX='45' PlayedTextColorY='4'
+	  LineColorX='0' LineColorY='4'
+	  AlbumTabX='450' AlbumTabY='70' AlbumTabW='85' AlbumTabH='30'
+	  AlbumTabBtnX='450' AlbumTabBtnY='70' AlbumTabBtnW='85' AlbumTabBtnH='30' AlbumTabBtnMargin='0'
+	  AlbumTabTextX='15' AlbumTabTextY='4' AlbumTabSelTextX='90' AlbumTabSelTextY='4'
+	  AlbumTabDelX='60' AlbumTabDelY='15' AlbumTabDelW='15' AlbumTabDelH='15'
 	  AlbumTabLeftX='253' AlbumTabLeftY='55' AlbumTabLeftW='19' AlbumTabLeftH='18'
 	  AlbumTabRightX='253' AlbumTabRightY='74' AlbumTabRightW='19' AlbumTabRightH='18'
 	  AlbumTabPopupX='253' AlbumTabPopupY='93' AlbumTabPopupW='19' AlbumTabPopupH='18'
 	  AlbumTabFontSize='9'
-	  SearchIconX='0' SearchIconY='93' SearchIconW='15' SearchIconH='16'
+	  SearchIconX='570' SearchIconY='40' SearchIconW='20' SearchIconH='20'
 	  SearchIconRight='1'
-	  SearchIconSelX='16' SearchIconSelY='93' SearchIconSelW='15' SearchIconSelH='16'
+	  SearchIconSelX='650' SearchIconSelY='40' SearchIconSelW='20' SearchIconSelH='20'
 	  LeftMargin='6' RightMargin='6' TopMargin='6' BottomMargin='6' UseWindowFrame='0' >
 		<Control>
 
-			<Static Align='Top' LeftMargin='0' RightMargin='10' Height='34' ImageLeft='0' ImageWidth='320' ImageTop='217' ImageHeight='34' AltImageLeft='342' AltImageTop='217' >
+			<Static Align='Top' LeftMargin='0' RightMargin='10' Height='30' ImageLeft='0' ImageWidth='360' ImageTop='495' ImageHeight='35' AltImageLeft='360' AltImageTop='495' >
 				<Layout Align='Left' Width='10' />
-				<Label Align='Left' Width='100' ColorX='518' ColorY='64' FontName='Roboto' AutoSize='1' FontSize='11' FontBold='1' VertAlignment='1' Text='$PLAYLIST_TITLE' />
+				<Label Align='Left' Width='100' ColorX='75' ColorY='4' AutoSize='1' FontName='Roboto Bold' FontSize='11' VertAlignment='1' Text='$PLAYLIST_TITLE' />
 
-				<Layout Align='Right' Width='10' />
-				<Button Align='Right' Tooltip='$CMD_CLOSE_WINDOW' CmdID='ID_PLAYLIST_WINDOW' Width='14' ImageLeft='260' ImageTop='16' ImageWidth='14' ImageHeight='13' />
-				<Layout Align='Right' Width='10' />
-				<Button Align='Right' CmdID='CMD_TOPMOST_WINDOW' AutoVisible='-1' Width='14' Image='Slider.png' ImageLeft='0' ImageTop='10' ImageWidth='14' ImageHeight='13' />
-				<Button Align='Right' CmdID='CMD_TOPMOST_WINDOW' AutoVisible='1' Width='14' Image='Slider.png' ImageLeft='65' ImageTop='10' ImageWidth='14' ImageHeight='13' />
-				<Layout Align='Right' Width='10' />
-				<#CONTROL1 Align='Right' Tooltip='$CMD_ATTACH_MAIN' CmdID='CMD_ATTACH_PLAYLIST' ImageLeft='323' ImageTop='16' Width='14' Height='14' />
-				<#CONTROL2 Align='Right' Width='10' />
+				<Layout Align='Right' Width='7' />
+				<Button Align='Right' Tooltip='$CMD_CLOSE_WINDOW' CmdID='ID_PLAYLIST_WINDOW' Width='15' ImageLeft='60' ImageTop='15' ImageWidth='15' ImageHeight='15' />
+				<Layout Align='Right' Width='7' />
+				<Button Align='Right' CmdID='CMD_TOPMOST_WINDOW' AutoVisible='-1' Width='15' ImageLeft='300' ImageTop='15' ImageWidth='15' ImageHeight='15' />
+				<Button Align='Right' CmdID='CMD_TOPMOST_WINDOW' AutoVisible='1' Width='15' ImageLeft='120' ImageTop='15' ImageWidth='15' ImageHeight='15' />
+				<Layout Align='Right' Width='7' />
+				<#CONTROL1 Align='Right' Tooltip='$CMD_ATTACH_MAIN' CmdID='CMD_ATTACH_PLAYLIST' ImageLeft='360' ImageTop='15' Width='15' Height='15' />
+				<#CONTROL2 Align='Right' Width='7' />
 				<Slider Align='Right' CmdID='CMD_TRANS_PL' Image='Slider.png' OffsetTop='13' Width='50' ImageWidth='28' ImageHeight='8' ThumbWidth='15' ThumbHeight='8' ImageLeft='0' ImageTop='42' BackImageLeft='0' BackImageTop='30' ThumbImageLeft='0' ThumbImageTop='57' LeftMargin='5' RightMargin='5' />
 			</Static>
-
-			<Static Align='Bottom' LeftMargin='10' RightMargin='10' TopMargin='0' BottomMargin='0' ImageLeft='0' ImageWidth='320' ImageTop='473' ImageHeight='3' Height='3' AltImageLeft='342' AltImageTop='473' />
-
-			<Static Align='Left' LeftMargin='0' RightMargin='0' TopMargin='150' BottomMargin='20' ImageLeft='0' ImageWidth='3' ImageTop='251' ImageHeight='222' Width='3' AltImageLeft='342' AltImageTop='251' />
-			<Static Align='Right' LeftMargin='0' RightMargin='0' TopMargin='150' BottomMargin='20' ImageLeft='317' ImageWidth='3' ImageTop='251' ImageHeight='222' Width='3' AltImageLeft='659' AltImageTop='251' />
-
+<!-- An ugly thing called border
+			<Static Align='Bottom' LeftMargin='10' RightMargin='10' TopMargin='0' BottomMargin='0' ImageLeft='0' ImageWidth='360' ImageTop='710' ImageHeight='25' Height='1' AltImageLeft='0' AltImageTop='710' />
+			<Static Align='Left' LeftMargin='0' RightMargin='0' TopMargin='150' BottomMargin='20' ImageLeft='0' ImageWidth='5' ImageTop='710' ImageHeight='25' Width='5' AltImageLeft='0' AltImageTop='710' />
+			<Static Align='Right' LeftMargin='0' RightMargin='0' TopMargin='150' BottomMargin='20' ImageLeft='0' ImageWidth='5' ImageTop='710' ImageHeight='25' Width='5' AltImageLeft='0' AltImageTop='710' />
+-->
 			<Static Align='Client' Contain='CMD_PLAYLIST_HOLDER'>
-				<Static Align='Bottom' LeftMargin='250' RightMargin='20' TopMargin='0' BottomMargin='0' ImageLeft='3' ImageWidth='314' ImageTop='432' ImageHeight='41' Height='46'>
+				<Static Align='Bottom' LeftMargin='150' RightMargin='20' TopMargin='0' BottomMargin='0' ImageLeft='0' ImageWidth='360' ImageTop='710' ImageHeight='25' Height='23'>
 					<Layout Align='Left' Width='8' />
-					<Button Tooltip='$CMD_PLAYLIST_TOP' CmdID='CMD_PLAYLIST_TOP' Align='Left' Width='25' ImageLeft='160' ImageTop='55' ImageWidth='21' ImageHeight='18' HoriAlignment='1' VertAlignment='1' OffsetTop='1' />
-					<Button Tooltip='$CMD_PLAYLIST_UP' CmdID='CMD_PLAYLIST_UP' Align='Left' Width='25' ImageLeft='160' ImageTop='74' ImageWidth='21' ImageHeight='18' HoriAlignment='1' VertAlignment='1' OffsetTop='1' />
-					<Button Tooltip='$CMD_PLAYLIST_DOWN' CmdID='CMD_PLAYLIST_DOWN' Align='Left' Width='25' ImageLeft='160' ImageTop='93' ImageWidth='21' ImageHeight='18' HoriAlignment='1' VertAlignment='1' OffsetTop='1' />
-					<Button Tooltip='$CMD_PLAYLIST_BOTTOM' CmdID='CMD_PLAYLIST_BOTTOM' Align='Left' Width='25' ImageLeft='160' ImageTop='112' ImageWidth='21' ImageHeight='18' HoriAlignment='1' VertAlignment='1' OffsetTop='1' />
+					<Button Tooltip='$CMD_PLAYLIST_TOP' Cursor='HAND' CmdID='CMD_PLAYLIST_TOP' Align='Left' Width='20' ImageLeft='0' ImageTop='356' ImageWidth='25' ImageHeight='25' VertAlignment='1' OffsetTop='-4' />
+					<Button Tooltip='$CMD_PLAYLIST_UP' Cursor='HAND' CmdID='CMD_PLAYLIST_UP' Align='Left' Width='20' ImageLeft='100' ImageTop='356' ImageWidth='25' ImageHeight='25' HoriAlignment='1' VertAlignment='1' OffsetTop='-4'  />
+					<Button Tooltip='$CMD_PLAYLIST_DOWN' Cursor='HAND' CmdID='CMD_PLAYLIST_DOWN' Align='Left' Width='20' ImageLeft='200' ImageTop='356' ImageWidth='25' ImageHeight='25' HoriAlignment='1' VertAlignment='1' OffsetTop='-4' />
+					<Button Tooltip='$CMD_PLAYLIST_BOTTOM' Cursor='HAND' CmdID='CMD_PLAYLIST_BOTTOM' Align='Left' Width='20' ImageLeft='300' ImageTop='356' ImageWidth='25' ImageHeight='25' HoriAlignment='1' VertAlignment='1' OffsetTop='-4' />
 					<Layout Align='Left' Width='8' />
 
-					<Button CmdID='CMD_PLAYLIST_ADD' AutoSize='1' LeftMargin='5' RightMargin='5' Align='Left' Width='35' ImageLeft='0' ImageTop='58' ImageWidth='35' ImageHeight='18' HoriAlignment='1' VertAlignment='1' OffsetTop='1' >
+					<Button CmdID='CMD_PLAYLIST_ADD' AutoSize='1' LeftMargin='5' RightMargin='5' Align='Left' Width='35' ImageLeft='10' ImageTop='150' ImageWidth='40' ImageHeight='15' VertAlignment='1' OffsetTop='-4' >
 						<Layout Width='5' />
-						<Label FontName='Roboto' AutoSize='1' FontSize='11' Text='$PLAYLIST_ADD' HoriAlignment='1' VertAlignment='1' ColorX='518' ColorY='164' OverColorX='518' OverColorY='198' PushColorX='518' PushColorY='180' OffsetTop='1' />
-						<Layout Width='5' />
-					</Button>
-					<Layout Align='Left' Width='4' />
-					<Button CmdID='CMD_PLAYLIST_DEL' AutoSize='1' LeftMargin='5' RightMargin='5' Align='Left' Width='35' ImageLeft='0' ImageTop='58' ImageWidth='35' ImageHeight='18' HoriAlignment='1' VertAlignment='1' OffsetTop='1' >
-						<Layout Width='5' />
-						<Label FontName='Roboto' AutoSize='1' FontSize='11' Text='$PLAYLIST_DEL' HoriAlignment='1' VertAlignment='1' ColorX='518' ColorY='164' OverColorX='518' OverColorY='198' PushColorX='518' PushColorY='180' OffsetTop='1' />
+						<Label FontName='Roboto' AutoSize='1' FontSize='11' Text='$PLAYLIST_ADD' VertAlignment='1' ColorX='75' ColorY='4' OverColorX='518' OverColorY='198' PushColorX='518' PushColorY='180' />
 						<Layout Width='5' />
 					</Button>
 					<Layout Align='Left' Width='4' />
-					<Button Align='Left' CmdID='CMD_PLAYLIST_MENU_SORT' AutoSize='1' LeftMargin='5' RightMargin='5' AutoSize='1' Width='35' ImageLeft='0' ImageTop='58' ImageWidth='35' ImageHeight='18' HoriAlignment='1' VertAlignment='1' OffsetTop='1' >
+					<Button CmdID='CMD_PLAYLIST_DEL' AutoSize='1' LeftMargin='5' RightMargin='5' Align='Left' Width='35' ImageLeft='10' ImageTop='150' ImageWidth='40' ImageHeight='15' VertAlignment='1' OffsetTop='-4' >
 						<Layout Width='5' />
-						<Label FontName='Roboto' AutoSize='1' FontSize='11' Text='$PLAYLIST_SORT' HoriAlignment='1' VertAlignment='1' ColorX='518' ColorY='164' OverColorX='518' OverColorY='198' PushColorX='518' PushColorY='180' OffsetTop='1' />
+						<Label FontName='Roboto' AutoSize='1' FontSize='11' Text='$PLAYLIST_DEL' VertAlignment='1' ColorX='75' ColorY='4' OverColorX='518' OverColorY='198' PushColorX='518' PushColorY='180' />
+						<Layout Width='5' />
+					</Button>
+					<Layout Align='Left' Width='4' />
+					<Button Align='Left' CmdID='CMD_PLAYLIST_MENU_SORT' AutoSize='1' LeftMargin='5' RightMargin='5' AutoSize='1' Width='35' ImageLeft='10' ImageTop='150' ImageWidth='40' ImageHeight='15' VertAlignment='1' OffsetTop='-4' >
+						<Layout Width='5' />
+						<Label FontName='Roboto' AutoSize='1' FontSize='11' Text='$PLAYLIST_SORT' VertAlignment='1' ColorX='75' ColorY='4' OverColorX='518' OverColorY='198' PushColorX='518' PushColorY='180' />
 						<Layout Width='5' />
 					</Button>
 					<Layout Align='Left' Width='4' />
 
-					<Layout Align='Right' Width='8' />
-					<Label Align='Right' CmdID='CMD_PLAYLIST_TOTAL_TIME_MESSAGE' AutoVisible='1' AutoSize='1' Enabled='1' Width='5' ColorX='518' ColorY='98' FontName='Roboto' FontSize='11' HoriAlignment='1' VertAlignment='1' />
+					<Layout Align='Right' Width='28' />
+					<Label Align='Right' CmdID='CMD_PLAYLIST_TOTAL_TIME_MESSAGE' AutoVisible='1' AutoSize='1' Enabled='1' Width='5' ColorX='75' ColorY='4' FontName='Roboto Bold' FontSize='11' VertAlignment='1' OffsetTop='-4' />
 					<Layout Align='Right' CmdID='CMD_PLAYLIST_TOTAL_TIME_MESSAGE' AutoVisible='1' Width='4' />
 
-					<Image Align='Client' ImageLeft='33' ImageTop='87' ImageWidth='110' ImageHeight='29' LeftMargin='2' TopMargin='2' RightMargin='2' BottomMargin='2' OffsetTop='7' OffsetHeight='-13'  >
-						<Layout Contain='CMD_PLAY_LIST_SEARCH' Align='Client' LeftOffset='2' TopOffset='2' WidthOffset='-4' HeightOffset='-4' />
-					</Image>
-
 				</Static>
+
+				<Static Align='Bottom' LeftMargin='4' RightMargin='4' ImageLeft='0' ImageWidth='460' ImageTop='710' ImageHeight='25' Height='23'>
+					<Layout Align='Left' Width='10' />
+					<Button Align='Left' Tooltip='$MAIN_USE_EXPLORER' Cursor='HAND' CmdID='CMD_USE_EXPLORER' DownFlag='1' AutoVisible='100' Width='23' ImageLeft='0' ImageTop='423' ImageWidth='23' ImageHeight='22' />
+					<Image Align='Client' ImageLeft='450' ImageTop='40' ImageWidth='120' ImageHeight='20' LeftMargin='4' RightMargin='4' TopMargin='4' BottomMargin='4' OffsetTop='1' OffsetLeft='10' OffsetWidth='-50' OffsetHeight='-4'  >
+						<Layout Contain='CMD_PLAY_LIST_SEARCH' Align='Client' LeftOffset='4' WidthOffset='-20' HeightOffset='-1' />
+					</Image>
+				</Static>
+
 				<Static Align='Client' Contain='CMD_PLAY_LIST_ALBUM_TAB' />
 			</Static>
+
 
 		</Control>
 	</PlaylistSkinArea>
