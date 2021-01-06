@@ -34,45 +34,45 @@
 					<Layout Width='5' />
 				</Button>
 
-				<Layout Align='Left' CmdID='ID_VIDEO_PS_SMPTE_2084' Width='5' AutoVisible='10' VisParentMinWidth='696' />
-				<Button Align='Left' CmdID='ID_VIDEO_PS_SMPTE_2084' Cursor='HAND' Width='65' AutoVisible='10' AutoSize='1' ImageLeft='10' ImageTop='150' ImageWidth='40' ImageHeight='15' VisParentMinWidth='696' Alignment='5' LeftMargin='3' RightMargin='3' OffsetTop='-2' DownFlag='1' >
+				<Layout Align='Left' CmdID='ID_VIDEO_PS_SMPTE_2084' Width='5' AutoVisible='10' VisParentMinWidth='645' />
+				<Button Align='Left' CmdID='ID_VIDEO_PS_SMPTE_2084' Cursor='HAND' Width='65' AutoVisible='10' AutoSize='1' ImageLeft='10' ImageTop='150' ImageWidth='40' ImageHeight='15' VisParentMinWidth='645' Alignment='5' LeftMargin='3' RightMargin='3' OffsetTop='-2' DownFlag='1' >
 					<Layout Width='5' />
 					<Label Text='HDR' ColorX='90' ColorY='4' OverColorX='135' OverColorY='4' PushColorX='90' PushColorY='4' Width='55' FontName='Roboto' FontSize='11' AutoSize='1' AutoVisible='1' VertAlignment='1' />
 					<Layout Width='5' />
 				</Button>
 
-				<Layout Align='Left' Width='5' VisParentMinWidth='735' />
-				<Button Align='Left' CmdID='CMD_VIDEO_CODEC_FOURCC_MESSAGE' Enabled='0' Width='65' AutoVisible='1' AutoSize='1' ImageLeft='10' ImageTop='150' ImageWidth='40' ImageHeight='15' VisParentMinWidth='735' Alignment='5' LeftMargin='3' RightMargin='3' OffsetTop='-2' >
+				<Layout Align='Left' Width='5' VisParentMinWidth='710' />
+				<Button Align='Left' CmdID='CMD_VIDEO_CODEC_FOURCC_MESSAGE' Enabled='0' Width='65' AutoVisible='1' AutoSize='1' ImageLeft='10' ImageTop='150' ImageWidth='40' ImageHeight='15' VisParentMinWidth='710' Alignment='5' LeftMargin='3' RightMargin='3' OffsetTop='-2' >
 					<Layout Width='5' />
 					<Label CmdID='CMD_VIDEO_CODEC_FOURCC_MESSAGE' ColorX='90' ColorY='4' Width='55' FontName='Roboto' FontSize='11' AutoSize='1' AutoVisible='1' VertAlignment='1' />
 					<Layout Width='5' />
 				</Button>
 
-				<Layout Align='Left' Width='5' VisParentMinWidth='770' />
-				<Button Align='Left' CmdID='CMD_AUDIO_CODEC_TYPE_MESSAGE' Enabled='0' Width='65' AutoVisible='1' AutoSize='1' ImageLeft='10' ImageTop='150' ImageWidth='40' ImageHeight='15' VisParentMinWidth='770' Alignment='5' LeftMargin='3' RightMargin='3' OffsetTop='-2' >
+				<Layout Align='Left' Width='5' VisParentMinWidth='745' />
+				<Button Align='Left' CmdID='CMD_AUDIO_CODEC_TYPE_MESSAGE' Enabled='0' Width='65' AutoVisible='1' AutoSize='1' ImageLeft='10' ImageTop='150' ImageWidth='40' ImageHeight='15' VisParentMinWidth='745' Alignment='5' LeftMargin='3' RightMargin='3' OffsetTop='-2' >
 					<Layout Width='5' />
 					<Label CmdID='CMD_AUDIO_CODEC_TYPE_MESSAGE' ColorX='90' ColorY='4' Width='55' FontName='Roboto' FontSize='11' AutoSize='1' AutoVisible='1' VertAlignment='1' />
 					<Layout Width='5' />
 				</Button>
 
 				#if<SkinName==AudioSkin>
-					<Button Align='Right' Tooltip='$CMD_LOAD_SKIN_XML_MIN' CmdID='CMD_LOAD_SKIN_XML' String='AudioMini.xml' Width='14' ImageLeft='488' ImageTop='798' ImageWidth='14' ImageHeight='13' Alignment='5' />
+					<Button Align='Right' Tooltip='$CMD_LOAD_SKIN_XML_MIN' CmdID='CMD_LOAD_SKIN_XML' String='AudioMini.xml' Width='14' ImageLeft='488' ImageTop='798' ImageWidth='14' ImageHeight='13' VisMinLeft='350' Alignment='5' />
 				#else
 				 	<Layout Align='Right' Width='20' />
-					<Button Align='Right' Tooltip='$CMD_FULL_WINDOW' Cursor='HAND' CmdID='CMD_FULL_WINDOW' Width='25' ImageLeft='100' ImageTop='281' ImageWidth='25' ImageHeight='25' OffsetTop='-2' />
+					<Button Align='Right' Tooltip='$CMD_FULL_WINDOW' Cursor='HAND' CmdID='CMD_FULL_WINDOW' Width='25' ImageLeft='100' ImageTop='281' ImageWidth='25' ImageHeight='25' VisMinLeft='350' OffsetTop='-2' />
 					<Layout Align='Right' Width='5' />
-					<Button Align='Right' Tooltip='$CMD_MAX_WINDOW' Cursor='HAND' CmdID='CMD_MAX_WINDOW' Width='25' ImageLeft='200' ImageTop='281' ImageWidth='25' ImageHeight='25' OffsetTop='-2' />
-					<Button Align='Right' Tooltip='$CMD_RESTORE_WINDOW' Cursor='HAND' CmdID='CMD_RESTORE_WINDOW' Width='25' ImageLeft='300' ImageTop='281' ImageWidth='25' ImageHeight='25' OffsetTop='-2' />
+					<Button Align='Right' Tooltip='$CMD_MAX_WINDOW' Cursor='HAND' CmdID='CMD_MAX_WINDOW' Width='25' ImageLeft='200' ImageTop='281' ImageWidth='25' ImageHeight='25' VisMinLeft='350' OffsetTop='-2' />
+					<Button Align='Right' Tooltip='$CMD_RESTORE_WINDOW' Cursor='HAND' CmdID='CMD_RESTORE_WINDOW' Width='25' ImageLeft='300' ImageTop='281' ImageWidth='25' ImageHeight='25' VisMinLeft='350' OffsetTop='-2' />
 				#endif
 
 				<Layout Align='Right' Width='4' />
-				<Button Align='Right' Tooltip='$ID_OPEN_FILE' Cursor='HAND' CmdID='ID_BASE_OPEN' Width='25' ImageLeft='0' ImageTop='306' ImageWidth='25' ImageHeight='25' OffsetTop='-2' />
+				<Button Align='Right' Tooltip='$ID_OPEN_FILE' Cursor='HAND' CmdID='ID_BASE_OPEN' Width='25' ImageLeft='0' ImageTop='306' ImageWidth='25' ImageHeight='25' VisMinLeft='350' OffsetTop='-2' />
 				<Layout Align='Right' Width='4' />
-				<Button Align='Right' Tooltip='$CMD_MEDIA_CLOSE' Cursor='HAND' CmdID='CMD_MEDIA_CLOSE' Width='25' ImageLeft='100' ImageTop='331' ImageWidth='25' ImageHeight='25' OffsetTop='-2' />
+				<Button Align='Right' Tooltip='$CMD_MEDIA_CLOSE' Cursor='HAND' CmdID='CMD_MEDIA_CLOSE' Width='25' ImageLeft='100' ImageTop='331' ImageWidth='25' ImageHeight='25' VisMinLeft='350' OffsetTop='-2' />
 				<Layout Align='Right' Width='4' />
-				<Button Align='Right' Tooltip='$ID_CONTROL_BOX_WINDOW' Cursor='HAND' CmdID='ID_CONTROL_BOX_WINDOW' DownFlag='1' Width='25' ImageLeft='200' ImageTop='306' ImageWidth='25' ImageHeight='25' VisMinLeft='330' OffsetTop='-2' />
+				<Button Align='Right' Tooltip='$ID_CONTROL_BOX_WINDOW' Cursor='HAND' CmdID='ID_CONTROL_BOX_WINDOW' DownFlag='1' Width='25' ImageLeft='200' ImageTop='306' ImageWidth='25' ImageHeight='25' VisMinLeft='350' OffsetTop='-2' />
 				<Layout Align='Right' Width='4' />
-				<Button Align='Right' Tooltip='$ID_PLAYLIST_WINDOW' Cursor='HAND' CmdID='ID_PLAYLIST_WINDOW' DownFlag='1' Width='25' ImageLeft='100' ImageTop='306' ImageWidth='25' ImageHeight='25' VisMinLeft='330' OffsetTop='-1' />
+				<Button Align='Right' Tooltip='$ID_PLAYLIST_WINDOW' Cursor='HAND' CmdID='ID_PLAYLIST_WINDOW' DownFlag='1' Width='25' ImageLeft='100' ImageTop='306' ImageWidth='25' ImageHeight='25' VisMinLeft='350' OffsetTop='-1' />
 				<Layout Align='Right' Width='4' />
 				<Button Align='Right' Tooltip='$CONTROL_CAPTION_SEL' Cursor='HAND' CmdID='CMD_POPUPMENU_CAPTION_LANG' DownFlag='1' Width='25' ImageLeft='300' ImageTop='306' ImageWidth='25' ImageHeight='25' VisMinLeft='350' OffsetTop='-2' />
 <!--

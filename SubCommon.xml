@@ -553,9 +553,9 @@
 #else
 	<!-- PlayList Setting -->
 	<PlaylistSkinArea Image='Main.png' AlphaMode='1' WidthLimit='300' HeightLimit='250'
-		SelBkgndColorX='30' SelBkgndColorY='4' FrameColorX='0' FrameColorY='4'
+		SelBkgndColorX='30' SelBkgndColorY='4' FrameColorX='30' FrameColorY='4'
 	  BkgndColor1X='0' BkgndColor1Y='4' BkgndColor2X='0' BkgndColor2Y='4'
-	  CurTextColorX='165' CurTextColorY='4' SelTextColorX='0' SelTextColorY='4' TextColorX='75' TextColorY='4' PlayedTextColorX='45' PlayedTextColorY='4'
+	  CurTextColorX='90' CurTextColorY='4' SelTextColorX='75' SelTextColorY='4' TextColorX='75' TextColorY='4' PlayedTextColorX='45' PlayedTextColorY='4'
 	  LineColorX='0' LineColorY='4'
 	  AlbumTabX='450' AlbumTabY='70' AlbumTabW='85' AlbumTabH='30'
 	  AlbumTabBtnX='450' AlbumTabBtnY='70' AlbumTabBtnW='85' AlbumTabBtnH='30' AlbumTabBtnMargin='0'
@@ -624,12 +624,14 @@
 
 				</Static>
 
-				<Static Align='Bottom' LeftMargin='4' RightMargin='4' ImageLeft='0' ImageWidth='460' ImageTop='710' ImageHeight='25' Height='23'>
+				<Static Align='Bottom' ImageWidth='460' ImageTop='710' ImageHeight='25' Height='23'>
+<!-- For now its broken
 					<Layout Align='Left' Width='10' />
 					<Button Align='Left' Tooltip='$MAIN_USE_EXPLORER' Cursor='HAND' CmdID='CMD_USE_EXPLORER' DownFlag='1' AutoVisible='100' Width='23' ImageLeft='0' ImageTop='423' ImageWidth='23' ImageHeight='22' />
 					<Image Align='Client' ImageLeft='450' ImageTop='40' ImageWidth='120' ImageHeight='20' LeftMargin='4' RightMargin='4' TopMargin='4' BottomMargin='4' OffsetTop='1' OffsetLeft='10' OffsetWidth='-50' OffsetHeight='-4'  >
 						<Layout Contain='CMD_PLAY_LIST_SEARCH' Align='Client' LeftOffset='4' WidthOffset='-20' HeightOffset='-1' />
 					</Image>
+-->
 				</Static>
 
 				<Static Align='Client' Contain='CMD_PLAY_LIST_ALBUM_TAB' />

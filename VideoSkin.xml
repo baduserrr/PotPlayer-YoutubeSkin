@@ -7,9 +7,9 @@
 #if<SkinType==Touch>
 	<MainSkinAreaOscFrame WidthLimit='380'
 #else
-	<MainSkinAreaOscFrame WidthLimit='540'
+	<MainSkinAreaOscFrame WidthLimit='380'
 #endif
-		HeightLimit='320' Image='Main.png' AlphaMode='1' UseWindowFrame='0' >
+		HeightLimit='215' Image='Main.png' AlphaMode='1' UseWindowFrame='0' >
 		#include<Logo.xml>
 		<Control>
 			#if<SkinType==Touch>
@@ -50,9 +50,9 @@
 #if<SkinType==Touch>
 	<MainSkinArea WidthLimit='380'
 #else
-	<MainSkinArea WidthLimit='540'
+	<MainSkinArea WidthLimit='380'
 #endif
-		HeightOffset='-1' HeightLimit='320' Image='Main.png' AlphaMode='1' UseWindowFrame='0'>
+		HeightOffset='-1' HeightLimit='215' Image='Main.png' AlphaMode='1' UseWindowFrame='0'>
 		#include<Logo.xml>
 		<Control>
 			#if<SkinType==Touch>
