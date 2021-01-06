@@ -1,0 +1,1 @@
+﻿{$CP949=팟플레이어 유튜브 스킨$}{$CP932=ユーチューブ・スキン$}{$CP0=Youtube Skin$}{$INDONESIAN=Skin Youtube$}
