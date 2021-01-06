@@ -40,7 +40,7 @@
 				#include<TopCast.xml>
 				#include<BottomVideo.xml>
 			#endif
-			#include<Popup.txt>
+			#include<Popup.xml>
 			#if<SkinName!=WdmSkin>
 				#include<BottomVod.txt>
 			#endif
@@ -74,7 +74,7 @@
 				#include<TopCast.xml>
 				#include<BottomVideo.xml>
 			#endif
-			#include<Popup.txt>
+			#include<Popup.xml>
 			#if<SkinName!=WdmSkin>
 				#include<BottomVod.txt>
 			#endif

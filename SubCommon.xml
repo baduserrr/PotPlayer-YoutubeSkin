@@ -552,7 +552,7 @@
 	</PlaylistSkinArea>
 #else
 	<!-- PlayList Setting -->
-	<PlaylistSkinArea Image='Main.png' AlphaMode='1' WidthLimit='300' HeightLimit='250'
+	<PlaylistSkinArea Image='Main.png' AlphaMode='1' WidthLimit='380' HeightLimit='214'
 		SelBkgndColorX='30' SelBkgndColorY='4' FrameColorX='30' FrameColorY='4'
 	  BkgndColor1X='0' BkgndColor1Y='4' BkgndColor2X='0' BkgndColor2Y='4'
 	  CurTextColorX='90' CurTextColorY='4' SelTextColorX='75' SelTextColorY='4' TextColorX='75' TextColorY='4' PlayedTextColorX='45' PlayedTextColorY='4'
@@ -565,9 +565,9 @@
 	  AlbumTabRightX='253' AlbumTabRightY='74' AlbumTabRightW='19' AlbumTabRightH='18'
 	  AlbumTabPopupX='253' AlbumTabPopupY='93' AlbumTabPopupW='19' AlbumTabPopupH='18'
 	  AlbumTabFontSize='9'
-	  SearchIconX='570' SearchIconY='40' SearchIconW='20' SearchIconH='20'
+	  SearchIconX='450' SearchIconY='40' SearchIconW='20' SearchIconH='20'
 	  SearchIconRight='1'
-	  SearchIconSelX='650' SearchIconSelY='40' SearchIconSelW='20' SearchIconSelH='20'
+	  SearchIconSelX='470' SearchIconSelY='40' SearchIconSelW='20' SearchIconSelH='20'
 	  LeftMargin='6' RightMargin='6' TopMargin='6' BottomMargin='6' UseWindowFrame='0' >
 		<Control>
 
@@ -599,6 +599,8 @@
 					<Button Tooltip='$CMD_PLAYLIST_BOTTOM' Cursor='HAND' CmdID='CMD_PLAYLIST_BOTTOM' Align='Left' Width='20' ImageLeft='300' ImageTop='356' ImageWidth='25' ImageHeight='25' HoriAlignment='1' VertAlignment='1' OffsetTop='-4' />
 					<Layout Align='Left' Width='8' />
 
+					<Button Align='Left' Tooltip='$ID_OPEN_FILE' Cursor='HAND' CmdID='ID_BASE_OPEN' Width='25' ImageLeft='0' ImageTop='306' ImageWidth='25' ImageHeight='25' OffsetTop='-4' />
+					<Layout Align='Left' Width='4' />
 					<Button CmdID='CMD_PLAYLIST_ADD' AutoSize='1' LeftMargin='5' RightMargin='5' Align='Left' Width='35' ImageLeft='10' ImageTop='150' ImageWidth='40' ImageHeight='15' VertAlignment='1' OffsetTop='-4' >
 						<Layout Width='5' />
 						<Label FontName='Roboto' AutoSize='1' FontSize='11' Text='$PLAYLIST_ADD' VertAlignment='1' ColorX='75' ColorY='4' OverColorX='518' OverColorY='198' PushColorX='518' PushColorY='180' />
@@ -624,14 +626,14 @@
 
 				</Static>
 
-				<Static Align='Bottom' ImageWidth='460' ImageTop='710' ImageHeight='25' Height='23'>
-<!-- For now its broken
+				<Static Align='Bottom' LeftMargin='4' RightMargin='4' TopMargin='0' BottomMargin='0' ImageWidth='460' ImageTop='710' ImageHeight='25' Height='23'>
+<!-- For now its broken -->
 					<Layout Align='Left' Width='10' />
 					<Button Align='Left' Tooltip='$MAIN_USE_EXPLORER' Cursor='HAND' CmdID='CMD_USE_EXPLORER' DownFlag='1' AutoVisible='100' Width='23' ImageLeft='0' ImageTop='423' ImageWidth='23' ImageHeight='22' />
-					<Image Align='Client' ImageLeft='450' ImageTop='40' ImageWidth='120' ImageHeight='20' LeftMargin='4' RightMargin='4' TopMargin='4' BottomMargin='4' OffsetTop='1' OffsetLeft='10' OffsetWidth='-50' OffsetHeight='-4'  >
-						<Layout Contain='CMD_PLAY_LIST_SEARCH' Align='Client' LeftOffset='4' WidthOffset='-20' HeightOffset='-1' />
+					<Image Align='Client' ImageLeft='490' ImageTop='40' ImageWidth='120' ImageHeight='20' LeftMargin='4' RightMargin='4' TopMargin='4' BottomMargin='4' OffsetTop='1' OffsetLeft='10' OffsetWidth='-50' OffsetHeight='-4'  >
+						<Layout Contain='CMD_PLAY_LIST_SEARCH' Align='Client' LeftOffset='1' WidthOffset='-3' />
 					</Image>
--->
+
 				</Static>
 
 				<Static Align='Client' Contain='CMD_PLAY_LIST_ALBUM_TAB' />

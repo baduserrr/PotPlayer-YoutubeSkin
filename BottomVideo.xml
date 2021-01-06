@@ -1,4 +1,4 @@
-﻿			<Static Align='Bottom' Height='28' LeftMargin='15' RightMargin='15' TopMargin='0' BottomMargin='0' ImageLeft='0' ImageTop='495' ImageWidth='360' ImageHeight='25' AltImageLeft='360' AltImageTop='495' >
+﻿			<Static Align='Bottom' Height='28' LeftMargin='15' RightMargin='15' TopMargin='0' BottomMargin='0' ImageLeft='0' ImageTop='710' ImageWidth='360' ImageHeight='25' AltImageLeft='360' AltImageTop='710' >
 				#if<SkinName==WdmSkin>
 					<Button Align='Left' Tooltip='$ID_WDM_FORCE_PREV_CH' Cursor='HAND' CmdID='ID_PROCESS_PREV' AltCmdID='ID_WDM_FORCE_PREV_CH' VertAlignment='1' Width='41' ImageLeft='328' ImageTop='259' ImageWidth='41' ImageHeight='40' />
 					<Button Align='Left' Tooltip='$CMD_MEDIA_PLAY' Cursor='HAND' CmdID='CMD_MEDIA_PLAY' VertAlignment='1' Width='25' ImageLeft='0' ImageTop='256' ImageWidth='25' ImageHeight='25' />
@@ -66,9 +66,7 @@
 				#endif
 
 				<Layout Align='Right' Width='4' />
-				<Button Align='Right' Tooltip='$ID_OPEN_FILE' Cursor='HAND' CmdID='ID_BASE_OPEN' Width='25' ImageLeft='0' ImageTop='306' ImageWidth='25' ImageHeight='25' VisMinLeft='350' OffsetTop='-2' />
-				<Layout Align='Right' Width='4' />
-				<Button Align='Right' Tooltip='$CMD_MEDIA_CLOSE' Cursor='HAND' CmdID='CMD_MEDIA_CLOSE' Width='25' ImageLeft='100' ImageTop='331' ImageWidth='25' ImageHeight='25' VisMinLeft='350' OffsetTop='-2' />
+				<Button Align='Right' Tooltip='$CMD_MEDIA_CLOSE' Cursor='HAND' CmdID='CMD_MEDIA_CLOSE' Width='25' ImageLeft='100' ImageTop='331' ImageWidth='25' ImageHeight='25' VisMinLeft='350' OffsetTop='-1' />
 				<Layout Align='Right' Width='4' />
 				<Button Align='Right' Tooltip='$ID_CONTROL_BOX_WINDOW' Cursor='HAND' CmdID='ID_CONTROL_BOX_WINDOW' DownFlag='1' Width='25' ImageLeft='200' ImageTop='306' ImageWidth='25' ImageHeight='25' VisMinLeft='350' OffsetTop='-2' />
 				<Layout Align='Right' Width='4' />
@@ -102,7 +100,7 @@
 				<Button Align='Right' Tooltip='$ID_CLOSED_CAPTION' CmdID='ID_CLOSED_CAPTION' AutoVisible='1' DownFlag='1' Width='23' ImageLeft='0' ImageTop='391' ImageWidth='23' ImageHeight='22' VisMinLeft='410' />
 			</Static>
 
-			<Static Align='Bottom' Height='18' LeftMargin='10' RightMargin='10' TopMargin='0' BottomMargin='0' ImageLeft='0' ImageTop='495' ImageWidth='360' ImageHeight='20' AltImageLeft='360' AltImageTop='495' >
+			<Static Align='Bottom' Height='18' LeftMargin='10' RightMargin='10' TopMargin='0' BottomMargin='0' ImageLeft='0' ImageTop='710' ImageWidth='360' ImageHeight='20' AltImageLeft='360' AltImageTop='710' >
 
 			<Layout Align='Left' Width='2' />
 			#if<SkinName==WdmSkin>
@@ -118,8 +116,8 @@
 			<Layout Align='Right' Width='8' />
 			<Slider Align='Client' Cursor='HAND' CmdID='CMD_TIMEBAR_CTRL' Alignment='1' ImageWidth='75' ImageHeight='15' ThumbWidth='15' ThumbHeight='15'
 				ImageLeft='0' ImageTop='180' BackImageLeft='0' BackImageTop='195' AltImageLeft='0' AltImageTop='210' ThumbImageLeft='0' ThumbImageTop='225'
-				LeftMargin='10' RightMargin='10' RepeatAImageLeft='148' RepeatAImageTop='241' RepeatBImageLeft='155' RepeatBImageTop='241' RepeatImageWidth='6' RepeatImageHeight='10'
-				BookmarkImageLeft='80' BookmarkImageTop='182' SeamlessImageLeft='188' SeamlessImageTop='241'
-				AdvertImageLeft='105' AdvertImageTop='179' AdvertImageWidth='6' />
+				LeftMargin='10' RightMargin='10' RepeatAImageLeft='75' RepeatAImageTop='195' RepeatBImageLeft='75' RepeatBImageTop='210' RepeatImageWidth='15' RepeatImageHeight='15'
+				BookmarkImageLeft='77' BookmarkImageTop='180' SeamlessImageLeft='75' SeamlessImageTop='225'
+				AdvertImageLeft='60' AdvertImageTop='225' AdvertImageWidth='15' />
 
 			</Static>

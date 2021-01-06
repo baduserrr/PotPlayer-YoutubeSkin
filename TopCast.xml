@@ -1,4 +1,4 @@
-﻿			<Static Align='Top' State='CMD_VIEWER_MODE CMD_BROADCAST_MODE' LeftMargin='10' RightMargin='10' TopMargin='0' BottomMargin='0' ImageLeft='3' ImageTop='521' ImageWidth='306' ImageHeight='31' Left='0' Top='0' Width='0' Height='31'>
+﻿			<Static Align='Top' State='CMD_VIEWER_MODE CMD_BROADCAST_MODE' LeftMargin='10' RightMargin='10' TopMargin='0' BottomMargin='0' ImageLeft='0' ImageTop='495' ImageWidth='360' ImageHeight='30' Left='0' Top='0' Width='0' Height='30'>
 
 				<Static Align='Client' State='CMD_VIEWER_MODE' UsingAlpha='1' >
 					<Layout Align='Left' Width='10' />
