@@ -1,4 +1,4 @@
-﻿			<Static Align='Top' LeftMargin='10' RightMargin='10' ImageLeft='0' ImageTop='495' ImageWidth='360' ImageHeight='30' Height='30' AltImageLeft='360' AltImageTop='495' IsTitleBar='1' >
+﻿			<Static Align='Top' LeftMargin='10' RightMargin='10' ImageLeft='0' ImageTop='495' ImageWidth='360' ImageHeight='30' Height='30' AltImageLeft='362' AltImageTop='495' IsTitleBar='1' >
 				#if<CodePage==949>
 					<Button Tooltip='$CMD_MAIN_MENU_POPUP_SKIN' CmdID='CMD_MAIN_MENU' AltCmdID='CMD_POPUPMENU_SKIN' Align='Left' Width='105' ImageLeft='0' ImageTop='70' ImageWidth='105' ImageHeight='30' />
 				#else

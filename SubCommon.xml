@@ -555,25 +555,25 @@
 	<PlaylistSkinArea Image='Main.png' AlphaMode='1' WidthLimit='380' HeightLimit='214'
 		SelBkgndColorX='30' SelBkgndColorY='4' FrameColorX='30' FrameColorY='4'
 	  BkgndColor1X='0' BkgndColor1Y='4' BkgndColor2X='0' BkgndColor2Y='4'
-	  CurTextColorX='90' CurTextColorY='4' SelTextColorX='75' SelTextColorY='4' TextColorX='75' TextColorY='4' PlayedTextColorX='45' PlayedTextColorY='4'
-	  LineColorX='0' LineColorY='4'
-	  AlbumTabX='450' AlbumTabY='70' AlbumTabW='85' AlbumTabH='30'
-	  AlbumTabBtnX='450' AlbumTabBtnY='70' AlbumTabBtnW='85' AlbumTabBtnH='30' AlbumTabBtnMargin='0'
-	  AlbumTabTextX='15' AlbumTabTextY='4' AlbumTabSelTextX='90' AlbumTabSelTextY='4'
-	  AlbumTabDelX='60' AlbumTabDelY='15' AlbumTabDelW='15' AlbumTabDelH='15'
-	  AlbumTabLeftX='253' AlbumTabLeftY='55' AlbumTabLeftW='19' AlbumTabLeftH='18'
-	  AlbumTabRightX='253' AlbumTabRightY='74' AlbumTabRightW='19' AlbumTabRightH='18'
-	  AlbumTabPopupX='253' AlbumTabPopupY='93' AlbumTabPopupW='19' AlbumTabPopupH='18'
-	  AlbumTabFontSize='9'
+	  CurTextColorX='90' CurTextColorY='4' SelTextColorX='90' SelTextColorY='4' TextColorX='90' TextColorY='4' PlayedTextColorX='45' PlayedTextColorY='4'
+	  LineColorX='30' LineColorY='4'
+	  AlbumTabX='450' AlbumTabY='70' AlbumTabW='100' AlbumTabH='30'
+	  AlbumTabBtnX='450' AlbumTabBtnY='70' AlbumTabBtnW='100' AlbumTabBtnH='30' AlbumTabBtnMargin='0'
+	  AlbumTabTextX='60' AlbumTabTextY='4' AlbumTabSelTextX='90' AlbumTabSelTextY='4'
+	  AlbumTabDelX='36' AlbumTabDelY='30' AlbumTabDelW='9' AlbumTabDelH='9'
+	  AlbumTabLeftX='100' AlbumTabLeftY='381' AlbumTabLeftW='25' AlbumTabLeftH='25'
+	  AlbumTabRightX='200' AlbumTabRightY='381' AlbumTabRightW='25' AlbumTabRightH='25'
+	  AlbumTabPopupX='200' AlbumTabPopupY='356' AlbumTabPopupW='25' AlbumTabPopupH='25'
+	  AlbumTabFontSize='9' AlbumTabFontName='Roboto Bold'
 	  SearchIconX='450' SearchIconY='40' SearchIconW='20' SearchIconH='20'
 	  SearchIconRight='1'
 	  SearchIconSelX='470' SearchIconSelY='40' SearchIconSelW='20' SearchIconSelH='20'
 	  LeftMargin='6' RightMargin='6' TopMargin='6' BottomMargin='6' UseWindowFrame='0' >
 		<Control>
 
-			<Static Align='Top' LeftMargin='0' RightMargin='10' Height='30' ImageLeft='0' ImageWidth='360' ImageTop='495' ImageHeight='35' AltImageLeft='360' AltImageTop='495' >
+			<Static Align='Top' LeftMargin='1' RightMargin='1' Height='30' ImageWidth='360' ImageLeft='0' ImageTop='495' ImageHeight='35' AltImageLeft='362' AltImageTop='495' >
 				<Layout Align='Left' Width='10' />
-				<Label Align='Left' Width='100' ColorX='75' ColorY='4' AutoSize='1' FontName='Roboto Bold' FontSize='11' VertAlignment='1' Text='$PLAYLIST_TITLE' />
+				<Label Align='Left' Width='100' ColorX='90' ColorY='4' AutoSize='1' FontName='Roboto Bold' FontSize='13' VertAlignment='1' Text='$PLAYLIST_TITLE' />
 
 				<Layout Align='Right' Width='7' />
 				<Button Align='Right' Tooltip='$CMD_CLOSE_WINDOW' CmdID='ID_PLAYLIST_WINDOW' Width='15' ImageLeft='60' ImageTop='15' ImageWidth='15' ImageHeight='15' />
@@ -585,18 +585,19 @@
 				<#CONTROL2 Align='Right' Width='7' />
 				<Slider Align='Right' CmdID='CMD_TRANS_PL' Image='Slider.png' OffsetTop='13' Width='50' ImageWidth='28' ImageHeight='8' ThumbWidth='15' ThumbHeight='8' ImageLeft='0' ImageTop='42' BackImageLeft='0' BackImageTop='30' ThumbImageLeft='0' ThumbImageTop='57' LeftMargin='5' RightMargin='5' />
 			</Static>
+
 <!-- An ugly thing called border
-			<Static Align='Bottom' LeftMargin='10' RightMargin='10' TopMargin='0' BottomMargin='0' ImageLeft='0' ImageWidth='360' ImageTop='710' ImageHeight='25' Height='1' AltImageLeft='0' AltImageTop='710' />
+			<Static Align='Bottom' LeftMargin='10' RightMargin='10' TopMargin='0' BottomMargin='0' ImageLeft='0' ImageWidth='360' ImageTop='735' ImageHeight='2' Height='1' AltImageLeft='362' AltImageTop='735' />
 			<Static Align='Left' LeftMargin='0' RightMargin='0' TopMargin='150' BottomMargin='20' ImageLeft='0' ImageWidth='5' ImageTop='710' ImageHeight='25' Width='5' AltImageLeft='0' AltImageTop='710' />
 			<Static Align='Right' LeftMargin='0' RightMargin='0' TopMargin='150' BottomMargin='20' ImageLeft='0' ImageWidth='5' ImageTop='710' ImageHeight='25' Width='5' AltImageLeft='0' AltImageTop='710' />
 -->
 			<Static Align='Client' Contain='CMD_PLAYLIST_HOLDER'>
-				<Static Align='Bottom' LeftMargin='150' RightMargin='20' TopMargin='0' BottomMargin='0' ImageLeft='0' ImageWidth='360' ImageTop='710' ImageHeight='25' Height='23'>
+				<Static Align='Bottom' LeftMargin='10' RightMargin='10' TopMargin='0' BottomMargin='0' ImageWidth='360' ImageLeft='0' ImageTop='710' ImageHeight='25' Height='23'>
 					<Layout Align='Left' Width='8' />
 					<Button Tooltip='$CMD_PLAYLIST_TOP' Cursor='HAND' CmdID='CMD_PLAYLIST_TOP' Align='Left' Width='20' ImageLeft='0' ImageTop='356' ImageWidth='25' ImageHeight='25' VertAlignment='1' OffsetTop='-4' />
-					<Button Tooltip='$CMD_PLAYLIST_UP' Cursor='HAND' CmdID='CMD_PLAYLIST_UP' Align='Left' Width='20' ImageLeft='100' ImageTop='356' ImageWidth='25' ImageHeight='25' HoriAlignment='1' VertAlignment='1' OffsetTop='-4'  />
-					<Button Tooltip='$CMD_PLAYLIST_DOWN' Cursor='HAND' CmdID='CMD_PLAYLIST_DOWN' Align='Left' Width='20' ImageLeft='200' ImageTop='356' ImageWidth='25' ImageHeight='25' HoriAlignment='1' VertAlignment='1' OffsetTop='-4' />
-					<Button Tooltip='$CMD_PLAYLIST_BOTTOM' Cursor='HAND' CmdID='CMD_PLAYLIST_BOTTOM' Align='Left' Width='20' ImageLeft='300' ImageTop='356' ImageWidth='25' ImageHeight='25' HoriAlignment='1' VertAlignment='1' OffsetTop='-4' />
+					<Button Tooltip='$CMD_PLAYLIST_UP' Cursor='HAND' CmdID='CMD_PLAYLIST_UP' Align='Left' Width='20' ImageLeft='100' ImageTop='356' ImageWidth='25' ImageHeight='25' VertAlignment='1' OffsetTop='-4'  />
+					<Button Tooltip='$CMD_PLAYLIST_DOWN' Cursor='HAND' CmdID='CMD_PLAYLIST_DOWN' Align='Left' Width='20' ImageLeft='200' ImageTop='356' ImageWidth='25' ImageHeight='25' VertAlignment='1' OffsetTop='-4' />
+					<Button Tooltip='$CMD_PLAYLIST_BOTTOM' Cursor='HAND' CmdID='CMD_PLAYLIST_BOTTOM' Align='Left' Width='20' ImageLeft='300' ImageTop='356' ImageWidth='25' ImageHeight='25' VertAlignment='1' OffsetTop='-4' />
 					<Layout Align='Left' Width='8' />
 
 					<Button Align='Left' Tooltip='$ID_OPEN_FILE' Cursor='HAND' CmdID='ID_BASE_OPEN' Width='25' ImageLeft='0' ImageTop='306' ImageWidth='25' ImageHeight='25' OffsetTop='-4' />
@@ -626,16 +627,16 @@
 
 				</Static>
 
-				<Static Align='Bottom' LeftMargin='4' RightMargin='4' TopMargin='0' BottomMargin='0' ImageWidth='460' ImageTop='710' ImageHeight='25' Height='23'>
-<!-- For now its broken -->
+				<Static Align='Bottom' LeftMargin='4' RightMargin='4' TopMargin='0' BottomMargin='0' ImageWidth='460' ImageLeft='0' ImageTop='710' ImageHeight='25' Height='23'>
 					<Layout Align='Left' Width='10' />
 					<Button Align='Left' Tooltip='$MAIN_USE_EXPLORER' Cursor='HAND' CmdID='CMD_USE_EXPLORER' DownFlag='1' AutoVisible='100' Width='23' ImageLeft='0' ImageTop='423' ImageWidth='23' ImageHeight='22' />
 					<Image Align='Client' ImageLeft='490' ImageTop='40' ImageWidth='120' ImageHeight='20' LeftMargin='4' RightMargin='4' TopMargin='4' BottomMargin='4' OffsetTop='1' OffsetLeft='10' OffsetWidth='-50' OffsetHeight='-4'  >
 						<Layout Contain='CMD_PLAY_LIST_SEARCH' Align='Client' LeftOffset='1' WidthOffset='-3' />
 					</Image>
-
 				</Static>
-
+<!-- Disabled for now
+				<Static Align='Bottom' LeftMargin='4' RightMargin='4' TopMargin='0' BottomMargin='0' ImageWidth='360' ImageLeft='360' ImageTop='735' ImageHeight='2' Height='1' />
+ -->
 				<Static Align='Client' Contain='CMD_PLAY_LIST_ALBUM_TAB' />
 			</Static>
 
