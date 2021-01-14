@@ -1,4 +1,4 @@
-﻿			<Static Align='Bottom' Height='28' LeftMargin='15' RightMargin='15' TopMargin='0' BottomMargin='0' ImageLeft='0' ImageTop='710' ImageWidth='360' ImageHeight='25' AltImageLeft='362' AltImageTop='710' >
+﻿			<Static Align='Bottom' Height='28' LeftMargin='15' RightMargin='15' TopMargin='0' BottomMargin='0' ImageLeft='0' ImageTop='710' ImageWidth='360' ImageHeight='25' AltImageLeft='363' AltImageTop='710' >
 				#if<SkinName==WdmSkin>
 					<Button Align='Left' Tooltip='$ID_WDM_FORCE_PREV_CH' Cursor='HAND' CmdID='ID_PROCESS_PREV' AltCmdID='ID_WDM_FORCE_PREV_CH' VertAlignment='1' Width='41' ImageLeft='328' ImageTop='259' ImageWidth='41' ImageHeight='40' />
 					<Button Align='Left' Tooltip='$CMD_MEDIA_PLAY' Cursor='HAND' CmdID='CMD_MEDIA_PLAY' VertAlignment='1' Width='25' ImageLeft='0' ImageTop='256' ImageWidth='25' ImageHeight='25' />
@@ -100,7 +100,7 @@
 				<Button Align='Right' Tooltip='$ID_CLOSED_CAPTION' CmdID='ID_CLOSED_CAPTION' AutoVisible='1' DownFlag='1' Width='23' ImageLeft='0' ImageTop='391' ImageWidth='23' ImageHeight='22' VisMinLeft='410' />
 			</Static>
 
-			<Static Align='Bottom' Height='18' LeftMargin='10' RightMargin='10' TopMargin='0' BottomMargin='0' ImageLeft='0' ImageTop='710' ImageWidth='360' ImageHeight='20' AltImageLeft='362' AltImageTop='710' >
+			<Static Align='Bottom' Height='18' LeftMargin='10' RightMargin='10' TopMargin='0' BottomMargin='0' ImageLeft='0' ImageTop='710' ImageWidth='360' ImageHeight='20' AltImageLeft='363' AltImageTop='710' >
 
 			<Layout Align='Left' Width='2' />
 			#if<SkinName==WdmSkin>

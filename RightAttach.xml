@@ -21,4 +21,4 @@
 					</Static>
 				</Static>
 			</Static>
-			<Static Align='Right' Contain='CMD_CHAT_PLAYLIST_BROADCAST_TOGGLE' TopMargin='30' BottomMargin='46' ImageLeft='360' ImageTop='495' ImageWidth='2' ImageHeight='240' AltImageLeft='360' AltImageTop='495' Width='2' IsSplitter='1' MinSplitterSizeLT='370' MinSplitterSizeRB='340' />
+			<Static Align='Right' Contain='CMD_CHAT_PLAYLIST_BROADCAST_TOGGLE' TopMargin='30' BottomMargin='46' ImageLeft='360' ImageTop='495' ImageWidth='3' ImageHeight='240' AltImageLeft='360' AltImageTop='495' Width='3' IsSplitter='1' MinSplitterSizeLT='370' MinSplitterSizeRB='340' />
