@@ -104,12 +104,12 @@
 	<StringTable Name='$CONTROL_FONT' String='{$CP949=폰트$}{$CP936=字体$}{$CP950=字型$}{$CP0=Font$}' />
 	<StringTable Name='$CONTROL_POSITION' String='{$CP949=위치$}{$CP936=位置$}{$CP950=位置$}{$CP0=Position$}' />
 	<StringTable Name='$CONTROL_POSITION1' String='{$CP949=위치 (%s%%)$}{$CP936=位置 (%s%%)$}{$CP950=位置 (%s%%)$}{$CP0=Position (%s%%)$}' />
-	<StringTable Name='$CONTROL_UP' String='{$CP949=▲위로$}{$CP936=▲上$}{$CP950=▲上移$}{$CP0=▲Up$}' />
+	<StringTable Name='$CONTROL_UP' String='{$CP949=▲ 위로$}{$CP936=▲ 上$}{$CP950=▲ 上移$}{$CP0=▲ Up$}' />
 	<StringTable Name='$CONTROL_UP1' String='{$CP949=▲ 위로$}{$CP936=▲ 上$}{$CP950=▲ 上移$}{$CP0=▲ Up$}' />
-	<StringTable Name='$CONTROL_DOWN' String='{$CP949=▼아래로$}{$CP936=▼下$}{$CP950=▼下移$}{$CP0=▼Down$}' />
+	<StringTable Name='$CONTROL_DOWN' String='{$CP949=▼ 아래로$}{$CP936=▼ 下$}{$CP950=▼ 下移$}{$CP0=▼ Down$}' />
 	<StringTable Name='$CONTROL_DOWN1' String='{$CP949=▼ 아래로$}{$CP936=▼ 下$}{$CP950=▼ 下移$}{$CP0=▼ Down$}' />
-	<StringTable Name='$CONTROL_LEFT' String='{$CP949=◀왼쪽$}{$CP936=◀左$}{$CP950=◀左移$}{$CP0=◀Left$}' />
-	<StringTable Name='$CONTROL_RIGHT' String='{$CP949=▶오른쪽$}{$CP936=▶右$}{$CP950=▶右移$}{$CP0=▶Right$}' />
+	<StringTable Name='$CONTROL_LEFT' String='{$CP949=◀ 왼쪽$}{$CP936=◀ 左$}{$CP950=◀ 左移$}{$CP0=◀ Left$}' />
+	<StringTable Name='$CONTROL_RIGHT' String='{$CP949=▶ 오른쪽$}{$CP936=▶ 右$}{$CP950=▶ 右移$}{$CP0=▶ Right$}' />
 	<StringTable Name='$CONTROL_SUBTITLE_DEFAULT' String='{$CP949=기본값$}{$CP936=默认$}{$CP950=回到預設$}{$CP0=Default$}' />
 	<StringTable Name='$CONTROL_SUBTITLE_SYNC' String='{$CP949=싱크$}{$CP936=速度$}{$CP950=同步$}{$CP0=Sync$}' />
 	<StringTable Name='$CONTROL_SUBTITLE_SYNC1' String='{$CP949=싱크 (%s초)$}{$CP936=速度 (%s)$}{$CP950=同步 (%s)$}{$CP0=Sync (%s Sec)$}' />
@@ -252,12 +252,12 @@
 	<StringTable Name='$CONTROL_FONT' String='フォント' />
 	<StringTable Name='$CONTROL_POSITION' String='位置' />
 	<StringTable Name='$CONTROL_POSITION1' String='位置 (%s%%)' />
-	<StringTable Name='$CONTROL_UP' String='▲上' />
+	<StringTable Name='$CONTROL_UP' String='▲ 上' />
 	<StringTable Name='$CONTROL_UP1' String='▲ 上' />
-	<StringTable Name='$CONTROL_DOWN' String='▼下' />
+	<StringTable Name='$CONTROL_DOWN' String='▼ 下' />
 	<StringTable Name='$CONTROL_DOWN1' String='▼ 下' />
-	<StringTable Name='$CONTROL_LEFT' String='◀左' />
-	<StringTable Name='$CONTROL_RIGHT' String='▶右' />
+	<StringTable Name='$CONTROL_LEFT' String='◀ 左' />
+	<StringTable Name='$CONTROL_RIGHT' String='▶ 右' />
 	<StringTable Name='$CONTROL_SUBTITLE_DEFAULT' String='標準' />
 	<StringTable Name='$CONTROL_SUBTITLE_SYNC' String='同期' />
 	<StringTable Name='$CONTROL_SUBTITLE_SYNC1' String='同期 (%s秒)' />
@@ -537,8 +537,8 @@
 	<StringTable Name='$CONTROL_UP1' String='▲ Góra' />
 	<StringTable Name='$CONTROL_DOWN' String='▼ Dół' />
 	<StringTable Name='$CONTROL_DOWN1' String='▼ Dół' />
-	<StringTable Name='$CONTROL_LEFT' String='◀Lewo' />
-	<StringTable Name='$CONTROL_RIGHT' String='▶Prawo' />
+	<StringTable Name='$CONTROL_LEFT' String='◀ Lewo' />
+	<StringTable Name='$CONTROL_RIGHT' String='▶ Prawo' />
 	<StringTable Name='$CONTROL_SUBTITLE_DEFAULT' String='Domyślne' />
 	<StringTable Name='$CONTROL_SUBTITLE_SYNC' String='Synchro' />
 	<StringTable Name='$CONTROL_SUBTITLE_SYNC1' String='Synchro (%s)' />
@@ -691,10 +691,10 @@
 	<StringTable Name='$CONTROL_FONT' String='Písmo' />
 	<StringTable Name='$CONTROL_POSITION' String='Pozice' />
 	<StringTable Name='$CONTROL_POSITION1' String='Pozice (%s%%)' />
-	<StringTable Name='$CONTROL_UP' String='▲Nahoru' />
-	<StringTable Name='$CONTROL_DOWN' String='▼Dolů' />
-	<StringTable Name='$CONTROL_LEFT' String='◀Vlevo' />
-	<StringTable Name='$CONTROL_RIGHT' String='▶Vpravo' />
+	<StringTable Name='$CONTROL_UP' String='▲ Nahoru' />
+	<StringTable Name='$CONTROL_DOWN' String='▼ Dolů' />
+	<StringTable Name='$CONTROL_LEFT' String='◀ Vlevo' />
+	<StringTable Name='$CONTROL_RIGHT' String='▶ Vpravo' />
 	<StringTable Name='$CONTROL_SUBTITLE_DEFAULT' String='Výchozí' />
 	<StringTable Name='$CONTROL_SUBTITLE_SYNC' String='Synchronizace' />
 	<StringTable Name='$CONTROL_SUBTITLE_SYNC1' String='Synchronizace (%s)' />
@@ -1158,12 +1158,12 @@
 	<StringTable Name='$CONTROL_FONT' String='Шрифт' />
 	<StringTable Name='$CONTROL_POSITION' String='Позиция' />
 	<StringTable Name='$CONTROL_POSITION1' String='Позиция субтитров (%s%%)' />
-	<StringTable Name='$CONTROL_UP' String='▲Вверх' />
-	<StringTable Name='$CONTROL_UP1' String='▲Вверх' />
-	<StringTable Name='$CONTROL_DOWN' String='Вниз▼' />
-	<StringTable Name='$CONTROL_DOWN1' String='Вниз▼' />
-	<StringTable Name='$CONTROL_LEFT' String='◄Влево' />
-	<StringTable Name='$CONTROL_RIGHT' String='Вправо►' />
+	<StringTable Name='$CONTROL_UP' String='▲ Вверх' />
+	<StringTable Name='$CONTROL_UP1' String='▲ Вверх' />
+	<StringTable Name='$CONTROL_DOWN' String='Вниз ▼' />
+	<StringTable Name='$CONTROL_DOWN1' String='Вниз ▼' />
+	<StringTable Name='$CONTROL_LEFT' String='◀ Влево' />
+	<StringTable Name='$CONTROL_RIGHT' String='Вправо ▶' />
 	<StringTable Name='$CONTROL_SUBTITLE_DEFAULT' String='Сброс' />
 	<StringTable Name='$CONTROL_SUBTITLE_SYNC' String='Синхрон.' />
 	<StringTable Name='$CONTROL_SUBTITLE_SYNC1' String='Синхронизация субтитров (%s сек.)' />
@@ -1703,10 +1703,10 @@
 	<StringTable Name='$CONTROL_FONT' String='字型' />
 	<StringTable Name='$CONTROL_POSITION' String='位置' />
 	<StringTable Name='$CONTROL_POSITION1' String='位置 (%s%%)' />
-	<StringTable Name='$CONTROL_UP' String='▲上移' />
-	<StringTable Name='$CONTROL_DOWN' String='▼下移' />
-	<StringTable Name='$CONTROL_LEFT' String='◀左移' />
-	<StringTable Name='$CONTROL_RIGHT' String='▶右移' />
+	<StringTable Name='$CONTROL_UP' String='▲ 上移' />
+	<StringTable Name='$CONTROL_DOWN' String='▼ 下移' />
+	<StringTable Name='$CONTROL_LEFT' String='◀ 左移' />
+	<StringTable Name='$CONTROL_RIGHT' String='▶ 右移' />
 	<StringTable Name='$CONTROL_SUBTITLE_DEFAULT' String='回到預設' />
 	<StringTable Name='$CONTROL_SUBTITLE_SYNC' String='同步' />
 	<StringTable Name='$CONTROL_SUBTITLE_SYNC1' String='同步 (%s)' />
@@ -1878,12 +1878,12 @@
 	<StringTable Name='$CONTROL_FONT' String='Huruf' />
 	<StringTable Name='$CONTROL_POSITION' String='Posisi' />
 	<StringTable Name='$CONTROL_POSITION1' String='Posisi (%s%%)' />
-	<StringTable Name='$CONTROL_UP' String='▲Atas' />
+	<StringTable Name='$CONTROL_UP' String='▲ Atas' />
 	<StringTable Name='$CONTROL_UP1' String='▲ Atas' />
-	<StringTable Name='$CONTROL_DOWN' String='▼Bawah' />
+	<StringTable Name='$CONTROL_DOWN' String='▼ Bawah' />
 	<StringTable Name='$CONTROL_DOWN1' String='▼ Bawah' />
-	<StringTable Name='$CONTROL_LEFT' String='◀Kiri' />
-	<StringTable Name='$CONTROL_RIGHT' String='▶Kanan' />
+	<StringTable Name='$CONTROL_LEFT' String='◀ Kiri' />
+	<StringTable Name='$CONTROL_RIGHT' String='▶ Kanan' />
 	<StringTable Name='$CONTROL_SUBTITLE_DEFAULT' String='Bawaan' />
 	<StringTable Name='$CONTROL_SUBTITLE_SYNC' String='Sink.' />
 	<StringTable Name='$CONTROL_SUBTITLE_SYNC1' String='Sink. (%s Det)' />

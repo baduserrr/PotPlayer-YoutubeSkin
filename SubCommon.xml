@@ -228,16 +228,16 @@
 
 				<Static State='CMD_PAGE_CONTROL' PageIndex='0' Left='0' Top='30' Width='320' Height='180' ImageLeft='0' ImageTop='1260' ImageWidth='320' ImageHeight='180' >
 
-					<Button CmdID='ID_AUDIO_EQULIZER' Cursor='HAND' DownFlag='1' Left='7' Top='15' Width='60' Height='15' ImageLeft='250' ImageTop='150' >
+					<Button CmdID='ID_AUDIO_EQULIZER' Cursor='HAND' DownFlag='1' Left='12' Top='15' Width='60' Height='15' ImageLeft='250' ImageTop='150' >
 						<Label FontName='Roboto' FontSize='11' Text='$CONTROL_EQUALIZER' ColorX='90' ColorY='4' VertAlignment='1' OffsetLeft='18' />
 					</Button>
-					<Button CmdID='CMD_POPUPMENU_AUDIO_EQULIZER' Cursor='HAND' Left='80' Top='13' Width='110' Height='20' ImageLeft='625' ImageTop='40' >
+					<Button CmdID='CMD_POPUPMENU_AUDIO_EQULIZER' Cursor='HAND' Left='82' Top='13' Width='110' Height='20' ImageLeft='0' ImageTop='1180' >
 						<Label CmdID='CMD_EQ_PRESET_MESSAGE' ColorX='90' ColorY='4' FontName='Roboto' FontSize='11' VertAlignment='1' OffsetLeft='5'  />
 					</Button>
-					<Button CmdID='CMD_POPUPMENU_EQULIZER_PRESET' Cursor='HAND' Left='200' Top='13' Width='50' Height='20' ImageLeft='625' ImageTop='10' >
+					<Button CmdID='CMD_POPUPMENU_EQULIZER_PRESET' Cursor='HAND' Left='200' Top='13' Width='50' Height='20' ImageLeft='0' ImageTop='1234' >
 						<Label FontName='Roboto' FontSize='11' Text='$CONTROL_PRESET' HoriAlignment='1' VertAlignment='1' ColorX='90' ColorY='4' />
 					</Button>
-					<Label FontName='Roboto' Left='263' Top='15' Width='44' Height='20' FontSize='11' FontBold='1' Text='$CONTROL_VOLUME' HoriAlignment='1' VertAlignment='1' ColorX='90' ColorY='4' />
+					<Label FontName='Roboto' Left='262' Top='15' Width='44' Height='20' FontSize='11' FontBold='1' Text='$CONTROL_VOLUME' HoriAlignment='1' VertAlignment='1' ColorX='90' ColorY='4' />
 
 					<Slider CmdID='CMD_EQULIZER_0' Cursor='HAND' Vert='1' Left='10' Top='60' Width='20' Height='95' ImageWidth='20' ImageHeight='45' ThumbWidth='20' ThumbHeight='15' ImageLeft='165' ImageTop='180' BackImageLeft='185' BackImageTop='180' ThumbImageLeft='150' ThumbImageTop='225' TopMargin='5' BottomMargin='5' >
 						<Label HoriAlignment='1' FontName='Roboto' FontSize='9' Text='60' ColorX='75' ColorY='4' OffsetTop='-10' />
@@ -269,10 +269,10 @@
 					<Slider CmdID='CMD_EQULIZER_9' Cursor='HAND' Vert='1' Left='226' Top='60' Width='20' Height='95' ImageWidth='20' ImageHeight='45' ThumbWidth='20' ThumbHeight='15' ImageLeft='165' ImageTop='180' BackImageLeft='185' BackImageTop='180' ThumbImageLeft='150' ThumbImageTop='225' TopMargin='5' BottomMargin='5' >
 						<Label HoriAlignment='1' FontName='Roboto' FontSize='9' Text='16K' ColorX='75' ColorY='4' OffsetTop='-10' />
 					</Slider>
-					<Slider CmdID='CMD_MASTER_VOLUME' Cursor='HAND' Vert='1' Left='261' Top='60' Width='20' Height='95' ImageWidth='20' ImageHeight='45' ThumbWidth='20' ThumbHeight='15' ImageLeft='165' ImageTop='180' BackImageLeft='185' BackImageTop='180' ThumbImageLeft='150' ThumbImageTop='225' TopMargin='5' BottomMargin='5' >
+					<Slider CmdID='CMD_MASTER_VOLUME' Cursor='HAND' Vert='1' Left='260' Top='60' Width='20' Height='95' ImageWidth='20' ImageHeight='45' ThumbWidth='20' ThumbHeight='15' ImageLeft='165' ImageTop='180' BackImageLeft='185' BackImageTop='180' ThumbImageLeft='150' ThumbImageTop='225' TopMargin='5' BottomMargin='5' >
 						<Label HoriAlignment='1' FontName='Roboto' FontSize='9' Text='MST' ColorX='75' ColorY='4' OffsetTop='-10' />
 					</Slider>
-					<Slider CmdID='CMD_WAVE_VOLUME' Cursor='HAND' Vert='1' Left='286' Top='60' Width='20' Height='95' ImageWidth='20' ImageHeight='45' ThumbWidth='20' ThumbHeight='15' ImageLeft='165' ImageTop='180' BackImageLeft='185' BackImageTop='180' ThumbImageLeft='150' ThumbImageTop='225' TopMargin='5' BottomMargin='5' >
+					<Slider CmdID='CMD_WAVE_VOLUME' Cursor='HAND' Vert='1' Left='285' Top='60' Width='20' Height='95' ImageWidth='20' ImageHeight='45' ThumbWidth='20' ThumbHeight='15' ImageLeft='165' ImageTop='180' BackImageLeft='185' BackImageTop='180' ThumbImageLeft='150' ThumbImageTop='225' TopMargin='5' BottomMargin='5' >
 						<Label HoriAlignment='1' FontName='Roboto' FontSize='9' Text='WAV' ColorX='75' ColorY='4' OffsetTop='-10' />
 					</Slider>
 
@@ -281,109 +281,116 @@
 
 					<Label FontName='Roboto' Left='10' Top='21' Width='65' Height='20' FontSize='11' Text='$CONTROL_BRIGHTNESS' HoriAlignment='2' VertAlignment='1' ColorX='90' ColorY='4' />
 					<Slider CmdID='CMD_COLOR_OFFSET' Cursor='HAND' Left='85' Top='24' Width='154' Height='15' ImageWidth='70' ImageHeight='15' ThumbWidth='15' ThumbHeight='15' ImageLeft='90' ImageTop='195' BackImageLeft='90' BackImageTop='210' ThumbImageLeft='90' ThumbImageTop='225' LeftMargin='5' RightMargin='5' />
-					<Button CmdID='CMD_COLOR_OFFSET_DEFAULT' Cursor='HAND' Left='250' Top='21' Width='50' Height='20' ImageLeft='625' ImageTop='10'>
+					<Button CmdID='CMD_COLOR_OFFSET_DEFAULT' Cursor='HAND' Left='250' Top='21' Width='50' Height='20' ImageLeft='0' ImageTop='1234'>
 						<Label FontName='Roboto' FontSize='10' Text='$CONTROL_VIDEO_DEFAULT' HoriAlignment='1' VertAlignment='1' ColorX='90' ColorY='4' />
 					</Button>
 
 					<Label FontName='Roboto' Left='10' Top='45' Width='65' Height='20' FontSize='11' Text='$CONTROL_CONTRAST' HoriAlignment='2' VertAlignment='1' ColorX='90' ColorY='4' />
 					<Slider CmdID='CMD_COLOR_GAIN' Cursor='HAND' Left='85' Top='48' Width='154' Height='15' ImageWidth='70' ImageHeight='15' ThumbWidth='15' ThumbHeight='15' ImageLeft='90' ImageTop='195' BackImageLeft='90' BackImageTop='210' ThumbImageLeft='90' ThumbImageTop='225' LeftMargin='5' RightMargin='5' />
-					<Button CmdID='CMD_COLOR_GAIN_DEFAULT' Cursor='HAND' Left='250' Top='45' Width='50' Height='20' ImageLeft='625' ImageTop='10'>
+					<Button CmdID='CMD_COLOR_GAIN_DEFAULT' Cursor='HAND' Left='250' Top='45' Width='50' Height='20' ImageLeft='0' ImageTop='1234'>
 						<Label FontName='Roboto' FontSize='10' Text='$CONTROL_VIDEO_DEFAULT' HoriAlignment='1' VertAlignment='1' ColorX='90' ColorY='4' />
 					</Button>
 
 					<Label FontName='Roboto' Left='10' Top='69' Width='65' Height='20' FontSize='11' Text='$CONTROL_SATURATION' HoriAlignment='2' VertAlignment='1' ColorX='90' ColorY='4' />
 					<Slider CmdID='CMD_COLOR_SAT' Cursor='HAND' Left='85' Top='72' Width='154' Height='15' ImageWidth='70' ImageHeight='15' ThumbWidth='15' ThumbHeight='15' ImageLeft='90' ImageTop='195' BackImageLeft='90' BackImageTop='210' ThumbImageLeft='90' ThumbImageTop='225' LeftMargin='5' RightMargin='5' />
-					<Button CmdID='CMD_COLOR_SAT_DEFAULT' Cursor='HAND' Left='250' Top='69' Width='50' Height='20' ImageLeft='625' ImageTop='10'>
+					<Button CmdID='CMD_COLOR_SAT_DEFAULT' Cursor='HAND' Left='250' Top='69' Width='50' Height='20' ImageLeft='0' ImageTop='1234'>
 						<Label FontName='Roboto' FontSize='10' Text='$CONTROL_VIDEO_DEFAULT' HoriAlignment='1' VertAlignment='1' ColorX='90' ColorY='4' />
 					</Button>
 
 					<Label FontName='Roboto' Left='10' Top='93' Width='65' Height='20' FontSize='11' Text='$CONTROL_COLOR' HoriAlignment='2' VertAlignment='1' ColorX='90' ColorY='4' />
 					<Slider CmdID='CMD_COLOR_HUE' Cursor='HAND' Left='85' Top='96' Width='154' Height='15' ImageWidth='70' ImageHeight='15' ThumbWidth='15' ThumbHeight='15' ImageLeft='90' ImageTop='195' BackImageLeft='90' BackImageTop='210' ThumbImageLeft='90' ThumbImageTop='225' LeftMargin='5' RightMargin='5' />
-					<Button CmdID='CMD_COLOR_HUE_DEFAULT' Cursor='HAND' Left='250' Top='93' Width='50' Height='20' ImageLeft='625' ImageTop='10'>
+					<Button CmdID='CMD_COLOR_HUE_DEFAULT' Cursor='HAND' Left='250' Top='93' Width='50' Height='20' ImageLeft='0' ImageTop='1234'>
 						<Label FontName='Roboto' FontSize='10' Text='$CONTROL_VIDEO_DEFAULT' HoriAlignment='1' VertAlignment='1' ColorX='90' ColorY='4' />
 					</Button>
 
-					<Button CmdID='ID_VIDEO_BLUR' Cursor='HAND' DownFlag='1' Left='25' Top='133' Width='60' Height='15' ImageLeft='500' ImageTop='150' >
-						<Label FontName='Roboto' FontSize='11' Text='$CONTROL_SOFTEN' HoriAlignment='0' VertAlignment='1' ColorX='90' ColorY='4' OffsetLeft='17' />
+					<Button CmdID='ID_VIDEO_BLUR' Cursor='HAND' DownFlag='1' Left='25' Top='145' Width='60' Height='15' ImageLeft='500' ImageTop='150' >
+						<Label FontName='Roboto' FontSize='11' Text='$CONTROL_SOFTEN' HoriAlignment='0' VertAlignment='1' ColorX='90' ColorY='4' OffsetLeft='20' />
 					</Button>
-					<Button CmdID='ID_VIDEO_SHARPEN' Cursor='HAND' DownFlag='1' Left='95' Top='133' Width='60' Height='15' ImageLeft='500' ImageTop='150' >
-						<Label FontName='Roboto' FontSize='11' Text='$CONTROL_SHARPEN' HoriAlignment='0' VertAlignment='1' ColorX='90' ColorY='4' OffsetLeft='17' />
+					<Button CmdID='ID_VIDEO_SHARPEN' Cursor='HAND' DownFlag='1' Left='95' Top='145' Width='60' Height='15' ImageLeft='500' ImageTop='150' >
+						<Label FontName='Roboto' FontSize='11' Text='$CONTROL_SHARPEN' HoriAlignment='0' VertAlignment='1' ColorX='90' ColorY='4' OffsetLeft='20' />
 					</Button>
-					<Button CmdID='ID_VIDEO_POSTPROC' Cursor='HAND' DownFlag='1' Left='170' Top='133' Width='60' Height='15' ImageLeft='500' ImageTop='150' >
-						<Label FontName='Roboto' FontSize='11' Text='$CONTROL_DEBLOCK' HoriAlignment='0' VertAlignment='1' ColorX='90' ColorY='4' OffsetLeft='17' />
+					<Button CmdID='ID_VIDEO_POSTPROC' Cursor='HAND' DownFlag='1' Left='170' Top='145' Width='60' Height='15' ImageLeft='500' ImageTop='150' >
+						<Label FontName='Roboto' FontSize='11' Text='$CONTROL_DEBLOCK' HoriAlignment='0' VertAlignment='1' ColorX='90' ColorY='4' OffsetLeft='20' />
 					</Button>
 
-					<Button CmdID='ID_VIDEO_IMAGE_CAPTURE_PROMPT' Cursor='HAND' Left='250' Top='129' Width='50' Height='20' ImageLeft='625' ImageTop='10' >
+					<Button CmdID='ID_VIDEO_IMAGE_CAPTURE_PROMPT' Cursor='HAND' Left='250' Top='143' Width='50' Height='20' ImageLeft='0' ImageTop='1234' >
 						<Label FontName='Roboto' FontSize='11' Text='$CONTROL_CAPTURE' HoriAlignment='1' VertAlignment='1' ColorX='90' ColorY='4' />
 					</Button>
 
 				</Static>
-				<Static State='CMD_PAGE_CONTROL' PageIndex='2' Left='0' Top='30' Width='320' Height='180' ImageLeft='320' ImageTop='1260' ImageWidth='320' ImageHeight='180' >
+				<Static State='CMD_PAGE_CONTROL' PageIndex='2' Left='0' Top='30' Width='320' Height='180' ImageLeft='640' ImageTop='1260' ImageWidth='320' ImageHeight='180' >
 
-					<Label FontName='Roboto' Left='1' Top='21' Width='58' Height='22' FontSize='11' Text='$CONTROL_FONT' HoriAlignment='2' VertAlignment='1' ColorX='482' ColorY='74' />
-					<Button CmdID='ID_CAPTION_FONT_SELECT' Left='64' Top='20' Width='160' Height='22' ImageLeft='0' ImageTop='341'>
-						<Label CmdID='CMD_CAPTION_FONT_MESSAGE' ColorX='482' ColorY='164' FontName='Roboto' FontSize='11' VertAlignment='1' OffsetLeft='5' />
-					</Button>
-
-					<Label CmdID='CMD_CAPTION_SIZE_MESSAGE' Left='232' Top='21' Width='29' Height='21' FontName='Roboto' FontSize='11' VertAlignment='1' ColorX='482' ColorY='74' />
-					<Button CmdID='ID_CAPTION_INC_SIZE' Left='265' Top='20' Width='16' Height='11' ImageLeft='659' ImageTop='341' />
-					<Button CmdID='ID_CAPTION_DEC_SIZE' Left='265' Top='31' Width='16' Height='12' ImageLeft='659' ImageTop='357' />
-
-					<Label FontName='Roboto' Left='1' Top='68' Width='58' Height='22' FontSize='11' Text='$CONTROL_POSITION' HoriAlignment='2' VertAlignment='1' ColorX='482' ColorY='74' />
-					<Button CmdID='ID_CAPTION_MOVE_UP' Left='64' Top='67' Width='51' Height='22' ImageLeft='0' ImageTop='389'>
-						<Label FontName='Roboto' FontSize='11' Text='$CONTROL_UP' HoriAlignment='1' VertAlignment='1' ColorX='482' ColorY='74'/>
-					</Button>
-					<Button CmdID='ID_CAPTION_MOVE_DOWN' Left='118' Top='67' Width='51' Height='22' ImageLeft='217' ImageTop='389'>
-						<Label FontName='Roboto' FontSize='11' Text='$CONTROL_DOWN' HoriAlignment='1' VertAlignment='1' ColorX='482' ColorY='74'/>
-					</Button>
-					<Button CmdID='ID_CAPTION_MOVE_LEFT' Left='172' Top='67' Width='51' Height='22' ImageLeft='434' ImageTop='389'>
-						<Label FontName='Roboto' FontSize='11' Text='$CONTROL_LEFT' HoriAlignment='1' VertAlignment='1' ColorX='482' ColorY='74'/>
-					</Button>
-					<Button CmdID='ID_CAPTION_MOVE_RIGHT' Left='226' Top='67' Width='51' Height='22' ImageLeft='651' ImageTop='389'>
-						<Label FontName='Roboto' FontSize='11' Text='$CONTROL_RIGHT' HoriAlignment='1' VertAlignment='1' ColorX='482' ColorY='74'/>
+					<Label FontName='Roboto' Left='1' Top='25' Width='58' Height='20' FontSize='11' Text='$CONTROL_FONT' HoriAlignment='2' VertAlignment='1' ColorX='90' ColorY='4' />
+					<Button CmdID='ID_CAPTION_FONT_SELECT' Cursor='HAND' Left='70' Top='25' Width='145' Height='20' ImageLeft='445' ImageTop='1180'>
+						<Label CmdID='CMD_CAPTION_FONT_MESSAGE' ColorX='90' ColorY='4' FontName='Roboto' FontSize='11' VertAlignment='1' OffsetLeft='5' />
 					</Button>
 
-					<Label FontName='Roboto' Left='1' Top='119' Width='58' Height='22' FontSize='11' Text='$CONTROL_SUBTITLE_SYNC' HoriAlignment='2' VertAlignment='1' ColorX='482' ColorY='74' />
-					<Button CmdID='ID_CAPTION_SLOW_SYNC' Left='64' Top='118' Width='69' Height='22' ImageLeft='0' ImageTop='433'>
-						<Label FontName='Roboto' FontSize='11' Text='$CONTROL_SUBTITLE_SLOWER' HoriAlignment='1' VertAlignment='1' ColorX='482' ColorY='74'/>
+					<Button Left='225' Top='25' Width='70' Height='20' ImageLeft='205' ImageTop='1234' >
+						<Label CmdID='CMD_CAPTION_SIZE_MESSAGE' FontName='Roboto' FontSize='11' VertAlignment='1' ColorX='0' ColorY='4' OffsetLeft='28' />
 					</Button>
-					<Button CmdID='ID_CAPTION_FAST_SYNC' Left='136' Top='118' Width='69' Height='22' ImageLeft='289' ImageTop='433'>
-						<Label FontName='Roboto' FontSize='11' Text='$CONTROL_SUBTITLE_FASTER' HoriAlignment='1' VertAlignment='1' ColorX='482' ColorY='74'/>
+					<Button CmdID='ID_CAPTION_INC_SIZE' Cursor='HAND' Left='290' Top='25' Width='10' Height='10' ImageLeft='485' ImageTop='1234' />
+					<Button CmdID='ID_CAPTION_DEC_SIZE' Cursor='HAND' Left='290' Top='35' Width='10' Height='10' ImageLeft='485' ImageTop='1244' />
+
+					<Label FontName='Roboto' Left='1' Top='78' Width='58' Height='20' FontSize='11' Text='$CONTROL_POSITION' HoriAlignment='2' VertAlignment='1' ColorX='90' ColorY='4' />
+					<Button CmdID='ID_CAPTION_MOVE_UP' Cursor='HAND' Left='70' Top='78' Width='50' Height='20' ImageLeft='0' ImageTop='1234'>
+						<Label FontName='Roboto' FontSize='11' Text='$CONTROL_UP' HoriAlignment='1' VertAlignment='1' ColorX='90' ColorY='4'/>
 					</Button>
-					<Button CmdID='ID_CAPTION_RESET_SYNC' Left='208' Top='118' Width='69' Height='22' ImageLeft='578' ImageTop='433'>
-						<Label FontName='Roboto' FontSize='11' Text='$CONTROL_SUBTITLE_DEFAULT' HoriAlignment='1' VertAlignment='1' ColorX='482' ColorY='74'/>
+					<Button CmdID='ID_CAPTION_MOVE_DOWN' Cursor='HAND' Left='130' Top='78' Width='50' Height='20' ImageLeft='0' ImageTop='1234'>
+						<Label FontName='Roboto' FontSize='11' Text='$CONTROL_DOWN' HoriAlignment='1' VertAlignment='1' ColorX='90' ColorY='4'/>
+					</Button>
+					<Button CmdID='ID_CAPTION_MOVE_LEFT' Cursor='HAND' Left='190' Top='78' Width='50' Height='20' ImageLeft='0' ImageTop='1234'>
+						<Label FontName='Roboto' FontSize='11' Text='$CONTROL_LEFT' HoriAlignment='1' VertAlignment='1' ColorX='90' ColorY='4'/>
+					</Button>
+					<Button CmdID='ID_CAPTION_MOVE_RIGHT' Cursor='HAND' Left='250' Top='78' Width='50' Height='20' ImageLeft='0' ImageTop='1234'>
+						<Label FontName='Roboto' FontSize='11' Text='$CONTROL_RIGHT' HoriAlignment='1' VertAlignment='1' ColorX='90' ColorY='4'/>
+					</Button>
+
+					<Label FontName='Roboto' Left='1' Top='133' Width='58' Height='22' FontSize='11' Text='$CONTROL_SUBTITLE_SYNC' HoriAlignment='2' VertAlignment='1' ColorX='90' ColorY='4' />
+					<Button CmdID='ID_CAPTION_SLOW_SYNC' Cursor='HAND' Left='70' Top='133' Width='70' Height='20' ImageLeft='530' ImageTop='1234'>
+						<Label FontName='Roboto' FontSize='11' Text='$CONTROL_SUBTITLE_SLOWER' HoriAlignment='1' VertAlignment='1' ColorX='90' ColorY='4'/>
+					</Button>
+					<Button CmdID='ID_CAPTION_FAST_SYNC' Cursor='HAND' Left='150' Top='133' Width='70' Height='20' ImageLeft='530' ImageTop='1234'>
+						<Label FontName='Roboto' FontSize='11' Text='$CONTROL_SUBTITLE_FASTER' HoriAlignment='1' VertAlignment='1' ColorX='90' ColorY='4'/>
+					</Button>
+					<Button CmdID='ID_CAPTION_RESET_SYNC' Cursor='HAND' Left='230' Top='133' Width='70' Height='20' ImageLeft='530' ImageTop='1234'>
+						<Label FontName='Roboto' FontSize='11' Text='$CONTROL_SUBTITLE_DEFAULT' HoriAlignment='1' VertAlignment='1' ColorX='90' ColorY='4'/>
 					</Button>
 
 				</Static>
-				<Static State='CMD_PAGE_CONTROL' PageIndex='3' Left='0' Top='31' Width='295' Height='159' ImageLeft='960' ImageTop='413' ImageWidth='295' ImageHeight='159' >
-					<Label FontName='Roboto' Left='1' Top='18' Width='60' Height='22' FontSize='11' Text='$CONTROL_SEEK' HoriAlignment='2' VertAlignment='1' ColorX='482' ColorY='74' />
-					<Button CmdID='ID_PLAYBACK_1MIN_BACK' AltCmdID='ID_PLAYBACK_5MIN_BACK' Left='66' Top='18' Width='51' Height='22' ImageLeft='0' ImageTop='477' />
-					<Button CmdID='ID_PLAYBACK_5SEC_BACK' AltCmdID='ID_PLAYBACK_30SEC_BACK' Left='120' Top='18' Width='51' Height='22' ImageLeft='217' ImageTop='477' />
-					<Button CmdID='ID_PLAYBACK_5SEC_FORW' AltCmdID='ID_PLAYBACK_30SEC_FORW' Left='174' Top='18' Width='51' Height='22' ImageLeft='434' ImageTop='477' />
-					<Button CmdID='ID_PLAYBACK_1MIN_FORW' AltCmdID='ID_PLAYBACK_5MIN_FORW' Left='228' Top='18' Width='51' Height='22' ImageLeft='651' ImageTop='477' />
+				<Static State='CMD_PAGE_CONTROL' PageIndex='3' Left='0' Top='30' Width='320' Height='180' ImageLeft='640' ImageTop='1260' ImageWidth='320' ImageHeight='180' >
+					<Label FontName='Roboto' Left='1' Top='25' Width='60' Height='20' FontSize='11' Text='$CONTROL_SEEK' HoriAlignment='2' VertAlignment='1' ColorX='90' ColorY='4' />
+					<Button CmdID='ID_PLAYBACK_1MIN_BACK' AltCmdID='ID_PLAYBACK_5MIN_BACK' Cursor='HAND' Left='70' Top='25' Width='50' Height='20' ImageLeft='410' ImageTop='1208' />
+					<Button CmdID='ID_PLAYBACK_5SEC_BACK' AltCmdID='ID_PLAYBACK_30SEC_BACK' Cursor='HAND' Left='130' Top='25' Width='50' Height='20' ImageLeft='0' ImageTop='1208' />
+					<Button CmdID='ID_PLAYBACK_5SEC_FORW' AltCmdID='ID_PLAYBACK_30SEC_FORW' Cursor='HAND' Left='190' Top='25' Width='50' Height='20' ImageLeft='205' ImageTop='1208' />
+					<Button CmdID='ID_PLAYBACK_1MIN_FORW' AltCmdID='ID_PLAYBACK_5MIN_FORW' Cursor='HAND' Left='250' Top='25' Width='50' Height='20' ImageLeft='615' ImageTop='1208' />
 
-					<Label FontName='Roboto' Left='1' Top='66' Width='60' Height='22' FontSize='11' Text='$CONTROL_PLAYBACK_SPEED' HoriAlignment='2' VertAlignment='1' ColorX='482' ColorY='74' />
-					<Button CmdID='ID_PLAY_SPEED_SLOWER' Left='66' Top='66' Width='69' Height='22' ImageLeft='0' ImageTop='433'>
-						<Label FontName='Roboto' FontSize='11' Text='$CONTROL_PLAYBACK_SLOWER' HoriAlignment='1' VertAlignment='1' ColorX='482' ColorY='74'/>
+					<Label FontName='Roboto' Left='1' Top='78' Width='60' Height='20' FontSize='11' Text='$CONTROL_PLAYBACK_SPEED' HoriAlignment='2' VertAlignment='1' ColorX='90' ColorY='4' />
+					<Button CmdID='ID_PLAY_SPEED_SLOWER' Cursor='HAND' Left='70' Top='78' Width='70' Height='20' ImageLeft='530' ImageTop='1234'>
+						<Label FontName='Roboto' FontSize='11' Text='$CONTROL_PLAYBACK_SLOWER' HoriAlignment='1' VertAlignment='1' ColorX='90' ColorY='4'/>
 					</Button>
-					<Button CmdID='ID_PLAY_SPEED_FASTER' Left='138' Top='66' Width='69' Height='22' ImageLeft='289' ImageTop='433'>
-						<Label FontName='Roboto' FontSize='11' Text='$CONTROL_PLAYBACK_FASTER' HoriAlignment='1' VertAlignment='1' ColorX='482' ColorY='74'/>
+					<Button CmdID='ID_PLAY_SPEED_FASTER' Cursor='HAND' Left='150' Top='78' Width='70' Height='20' ImageLeft='530' ImageTop='1234'>
+						<Label FontName='Roboto' FontSize='11' Text='$CONTROL_PLAYBACK_FASTER' HoriAlignment='1' VertAlignment='1' ColorX='90' ColorY='4'/>
 					</Button>
-					<Button CmdID='ID_PLAY_SPEED_NORMAL' Left='210' Top='66' Width='69' Height='22' ImageLeft='578' ImageTop='433'>
-						<Label FontName='Roboto' FontSize='11' Text='$CONTROL_PLAYBACK_DEFAULT' HoriAlignment='1' VertAlignment='1' ColorX='482' ColorY='74'/>
+					<Button CmdID='ID_PLAY_SPEED_NORMAL' Cursor='HAND' Left='230' Top='78' Width='70' Height='20' ImageLeft='530' ImageTop='1234'>
+						<Label FontName='Roboto' FontSize='11' Text='$CONTROL_PLAYBACK_DEFAULT' HoriAlignment='1' VertAlignment='1' ColorX='90' ColorY='4'/>
 					</Button>
 
-					<Label FontName='Roboto' Left='1' Top='115' Width='60' Height='22' FontSize='11' Text='$CONTROL_AB' HoriAlignment='2' VertAlignment='1' ColorX='482' ColorY='74' />
-					<Label CmdID='CMD_REPEAT_START_MESSAGE' Left='68' Top='115' Width='47' Height='20' FontName='Roboto' FontSize='11' VertAlignment='1' HoriAlignment='1' ColorX='482' ColorY='74' />
-					<Button CmdID='ID_PLAY_REPEAT_START_SET' Left='115' Top='114' Width='31' Height='22' ImageLeft='0' ImageTop='521'>
-						<Label FontName='Roboto' FontSize='11' Text='$CONTROL_A' HoriAlignment='1' VertAlignment='1' ColorX='482' ColorY='74'/>
+					<Label FontName='Roboto' Left='1' Top='133' Width='60' Height='20' FontSize='11' Text='$CONTROL_AB' HoriAlignment='2' VertAlignment='1' ColorX='90' ColorY='4' />
+					<Button Left='70' Top='133' Width='70' Height='20' ImageLeft='205' ImageTop='1234'>
+						<Label CmdID='CMD_REPEAT_START_MESSAGE' FontName='Roboto' FontSize='11' VertAlignment='1' HoriAlignment='1' ColorX='90' ColorY='4' OffsetLeft='-7' />
 					</Button>
-					<Label CmdID='CMD_REPEAT_END_MESSAGE' Left='158' Top='115' Width='47' Height='20' FontName='Roboto' FontSize='11' VertAlignment='1' HoriAlignment='1' ColorX='482' ColorY='74' />
-					<Button CmdID='ID_PLAY_REPEAT_STOP_SET' Left='205' Top='114' Width='31' Height='22' ImageLeft='137' ImageTop='521'>
-						<Label FontName='Roboto' FontSize='11' Text='$CONTROL_B' HoriAlignment='1' VertAlignment='1' ColorX='482' ColorY='74'/>
+					<Button CmdID='ID_PLAY_REPEAT_START_SET' Cursor='HAND' Left='125' Top='133' Width='20' Height='20' ImageLeft='815' ImageTop='1234'>
+						<Label FontName='Roboto' FontSize='11' Text='$CONTROL_A' HoriAlignment='1' VertAlignment='1' ColorX='90' ColorY='4'/>
 					</Button>
-					<Button CmdID='ID_PLAY_REPEAT_RESET' Left='241' Top='114' Width='41' Height='22' ImageLeft='274' ImageTop='521'>
-						<Label FontName='Roboto' FontSize='11' Text='$CONTROL_STOP' HoriAlignment='1' VertAlignment='1' ColorX='482' ColorY='74'/>
+					<Label Left='145' Top='133' Width='20' Height='20' Text='~' FontName='Roboto' FontSize='11' VertAlignment='1' HoriAlignment='1' ColorX='90' ColorY='4' />
+					<Button Left='165' Top='133' Width='70' Height='20' ImageLeft='205' ImageTop='1234'>
+						<Label CmdID='CMD_REPEAT_END_MESSAGE' FontName='Roboto' FontSize='11' VertAlignment='1' HoriAlignment='1' ColorX='90' ColorY='4' OffsetLeft='-7' />
+					</Button>
+					<Button CmdID='ID_PLAY_REPEAT_STOP_SET' Cursor='HAND' Left='220' Top='133' Width='20' Height='20' ImageLeft='815' ImageTop='1234'>
+						<Label FontName='Roboto' FontSize='11' Text='$CONTROL_B' HoriAlignment='1' VertAlignment='1' ColorX='90' ColorY='4'/>
+					</Button>
+					<Button CmdID='ID_PLAY_REPEAT_RESET' Cursor='HAND' Left='250' Top='133' Width='50' Height='20' ImageLeft='0' ImageTop='1234'>
+						<Label FontName='Roboto' FontSize='11' Text='$CONTROL_STOP' HoriAlignment='1' VertAlignment='1' ColorX='90' ColorY='4'/>
 					</Button>
 
 				</Static>
@@ -399,21 +406,21 @@
 	#include<Chat.xml #PREV_ARG>
 #endif
 
-	<BroadcastListSkinArea Image='BRList.png' AlphaMode='1' WidthLimit='328' HeightLimit='200' UseWindowFrame='0' >
+	<BroadcastListSkinArea AlphaMode='1' WidthLimit='380' HeightLimit='214' UseWindowFrame='0' >
 		<Control>
-			<Static Align='Top' LeftMargin='100' RightMargin='10' TopMargin='0' BottomMargin='0' ImageLeft='0' ImageTop='134' ImageWidth='328' ImageHeight='34' Height='34' AltImageLeft='330' AltImageTop='134' >
+			<Static Align='Top' LeftMargin='1' RightMargin='1' Height='30' ImageWidth='360' ImageLeft='0' ImageTop='495' ImageHeight='35' AltImageLeft='363' AltImageTop='495' >
 				<Layout Align='Left' Width='10' />
-				<Label Align='Left' Width='100' ColorX='572' ColorY='107' FontName='Roboto' AutoSize='1' FontSize='11' FontBold='1' VertAlignment='1' Text='$MAIN_TAB_PROGRAM' />
+				<Label Align='Left' Width='100' ColorX='90' ColorY='4' FontName='Roboto Bold' AutoSize='1' FontSize='13' VertAlignment='1' Text='$MAIN_TAB_PROGRAM' />
 
-				<Layout Align='Right' Width='10' />
-				<Button Align='Right' Tooltip='$CMD_CLOSE_WINDOW' CmdID='ID_BROADCAST_LIST_WINDOW' Width='14' ImageLeft='260' ImageTop='20' ImageWidth='14' ImageHeight='13' />
-				<Layout Align='Right' Width='10' />
-				<Button Align='Right' CmdID='CMD_TOPMOST_WINDOW' AutoVisible='-1' Width='14' Image='Slider.png' ImageLeft='0' ImageTop='10' ImageWidth='14' ImageHeight='13' />
-				<Button Align='Right' CmdID='CMD_TOPMOST_WINDOW' AutoVisible='1' Width='14' Image='Slider.png' ImageLeft='65' ImageTop='10' ImageWidth='14' ImageHeight='13' />
-				<Layout Align='Right' Width='10' />
-				<#CONTROL1 Align='Right' Tooltip='$CMD_ATTACH_MAIN' CmdID='CMD_ATTACH_BROADCAST' Width='14' ImageLeft='325' ImageTop='20' ImageWidth='14' ImageHeight='13' />
-				<#CONTROL2 Align='Right' Width='10' />
-				<Slider Align='Right' CmdID='CMD_TRANS_BR' Image='Slider.png' OffsetTop='13' Width='50' ImageWidth='28' ImageHeight='8' ThumbWidth='15' ThumbHeight='8' ImageLeft='0' ImageTop='42' BackImageLeft='0' BackImageTop='30' ThumbImageLeft='0' ThumbImageTop='57' LeftMargin='5' RightMargin='5' />
+				<Layout Align='Right' Width='7' />
+				<Button Align='Right' Tooltip='$CMD_CLOSE_WINDOW' CmdID='ID_BROADCAST_LIST_WINDOW' Width='15' ImageLeft='60' ImageTop='15' ImageWidth='15' ImageHeight='15' />
+				<Layout Align='Right' Width='7' />
+				<Button Align='Right' CmdID='CMD_TOPMOST_WINDOW' AutoVisible='-1' Width='15' ImageLeft='300' ImageTop='15' ImageWidth='15' ImageHeight='15' />
+				<Button Align='Right' CmdID='CMD_TOPMOST_WINDOW' AutoVisible='1' Width='15' ImageLeft='120' ImageTop='15' ImageWidth='15' ImageHeight='15' />
+				<Layout Align='Right' Width='7' />
+				<#CONTROL1 Align='Right' Tooltip='$CMD_ATTACH_MAIN' CmdID='CMD_ATTACH_BROADCAST' ImageLeft='360' ImageTop='15' Width='15' Height='15' />
+				<#CONTROL2 Align='Right' Width='7' />
+				<Slider Align='Right' CmdID='CMD_TRANS_BR' OffsetTop='7' Width='60' ImageWidth='70' ImageHeight='15' ThumbWidth='15' ThumbHeight='15' ImageLeft='90' ImageTop='195' BackImageLeft='90' BackImageTop='210' ThumbImageLeft='90' ThumbImageTop='225' LeftMargin='5' RightMargin='5' />
 			</Static>
 
 			<Static Align='Bottom' LeftMargin='100' RightMargin='10' TopMargin='0' BottomMargin='0' ImageLeft='0' ImageTop='401' ImageWidth='328'  ImageHeight='3' Height='3' AltImageLeft='330' AltImageTop='401' />
@@ -421,8 +428,8 @@
 			<Static Align='Left' LeftMargin='0' RightMargin='0' TopMargin='150' BottomMargin='20' ImageLeft='0' ImageWidth='1' ImageTop='168' ImageHeight='233' Width='3' AltImageLeft='330' AltImageTop='168' />
 			<Static Align='Right' LeftMargin='0' RightMargin='0' TopMargin='150' BottomMargin='20' ImageLeft='325' ImageWidth='1' ImageTop='168' ImageHeight='233' Width='3' AltImageLeft='655' AltImageTop='168' />
 
-      		<Static Align='Client' Contain='CMD_BROADCAST_HOLDER'>
-        		<Static Align='Client' Contain='CMD_BROADCAST_LIST' />
+  		<Static Align='Client' Contain='CMD_BROADCAST_HOLDER'>
+    		<Static Align='Client' Contain='CMD_BROADCAST_LIST' />
 			</Static>
 		</Control>
 	</BroadcastListSkinArea>
@@ -614,7 +621,6 @@
 			<Static Align='Right' LeftMargin='0' RightMargin='0' TopMargin='150' BottomMargin='20' ImageLeft='0' ImageWidth='5' ImageTop='710' ImageHeight='25' Width='5' AltImageLeft='0' AltImageTop='710' />
 -->
 			<Static Align='Left' LeftMargin='1' RightMargin='1' TopMargin='1' BottomMargin='46' ImageLeft='722' ImageWidth='2' ImageTop='495' ImageHeight='240' Width='1' AltImageLeft='722' AltImageTop='495' />
-
 
 			<Static Align='Client' Contain='CMD_PLAYLIST_HOLDER'>
 				<Static Align='Bottom' LeftMargin='10' RightMargin='10' TopMargin='0' BottomMargin='0' ImageWidth='360' ImageLeft='0' ImageTop='710' ImageHeight='25' Height='28'>

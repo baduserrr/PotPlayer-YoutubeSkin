@@ -1,20 +1,20 @@
 <!-- This thing control attach behavior-->
 			<Static Align='Right' Contain='CMD_CHAT_PLAYLIST_BROADCAST_TOGGLE' Width='1'>
-				<Static Align='Top' LeftMargin='250' RightMargin='10' ImageLeft='0' ImageTop='495' ImageWidth='360' ImageHeight='30' Height='30' >
+				<Static Align='Top' LeftMargin='250' RightMargin='10' ImageLeft='0' ImageTop='495' ImageWidth='360' ImageHeight='30' Height='29' >
 					<Static Align='Left' State='CMD_BROADCAST_ATTACH' UsingAlpha='1' Width='100' >
-						<Button CmdID='CMD_BROADCAST_LIST_TAB_SELECT' Left='0' Top='0' Width='100' Height='30' ImageLeft='450' ImageTop='70'>
+						<Button CmdID='CMD_BROADCAST_LIST_TAB_SELECT' Left='0' Top='0' Width='100' Height='29' ImageLeft='450' ImageTop='70'>
 							<Label FontName='Roboto Bold' FontSize='12' Text='$MAIN_TAB_PROGRAM' HoriAlignment='1' VertAlignment='1' ColorX='90' ColorY='4' OverColorX='135' OverColorY='4' PushColorX='150' PushColorY='4' />
 						</Button>
 						<Button Tooltip='$CMD_DETACH_CAST' CmdID='CMD_ATTACH_BROADCAST' Left='84' Top='1' Width='15' Height='15' ImageLeft='420' ImageTop='15' />
 					</Static>
 					<Static Align='Left' State='CMD_CHAT_ATTACH' UsingAlpha='1' Width='100' >
-						<Button CmdID='CMD_CHAT_TAB_SELECT' Left='0' Top='0' Width='100' Height='30' ImageLeft='450' ImageTop='70'>
+						<Button CmdID='CMD_CHAT_TAB_SELECT' Left='0' Top='0' Width='100' Height='29' ImageLeft='450' ImageTop='70'>
 							<Label CmdID='CMD_CHAT_TAB_SELECT' FontName='Roboto Bold' FontSize='12' Text='$MAIN_TAB_CHAT' AltText='$MAIN_TAB_BROWSER' HoriAlignment='1' VertAlignment='1' ColorX='75' ColorY='4' OverColorX='135' OverColorY='4' PushColorX='150' PushColorY='4' />
 						</Button>
 						<Button Tooltip='$CMD_DETACH_CHAT' CmdID='CMD_ATTACH_CHAT' Left='84' Top='1' Width='15' Height='15' ImageLeft='420' ImageTop='15' />
 					</Static>
 					<Static Align='Left' State='CMD_PLAYLIST_ATTACH' UsingAlpha='1' Width='100' >
-						<Button CmdID='CMD_PLAYLIST_TAB_SELECT' Left='0' Top='0' Width='100' Height='30' ImageLeft='450' ImageTop='70'>
+						<Button CmdID='CMD_PLAYLIST_TAB_SELECT' Left='0' Top='0' Width='100' Height='29' ImageLeft='450' ImageTop='70'>
 							<Label FontName='Roboto Bold' FontSize='12' Text='$MAIN_TAB_PLAYLIST' HoriAlignment='1' VertAlignment='1' ColorX='60' ColorY='4' OverColorX='135' OverColorY='4' PushColorX='90' PushColorY='4' />
 						</Button>
 						<Button Tooltip='$CMD_DETACH_PLAYLIST' CmdID='CMD_ATTACH_PLAYLIST' Left='84' Top='1' Width='15' Height='15' ImageLeft='420' ImageTop='15' />
