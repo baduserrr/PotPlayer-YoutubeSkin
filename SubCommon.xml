@@ -202,11 +202,11 @@
 				<Slider Align='Right' CmdID='CMD_TRANS_CB' OffsetTop='7' Width='60' ImageWidth='70' ImageHeight='15' ThumbWidth='15' ThumbHeight='15' ImageLeft='90' ImageTop='195' BackImageLeft='90' BackImageTop='210' ThumbImageLeft='90' ThumbImageTop='225' LeftMargin='5' RightMargin='5' />
 			</Static>
 
-<!-- An ugly thing called border
+		<!-- An ugly thing called border
 			<Static Align='Bottom' LeftMargin='10' RightMargin='10' Height='3' ImageLeft='0' ImageTop='787' ImageWidth='307' ImageHeight='3' AltImageLeft='949' AltImageTop='364' />
 			<Static Align='Left' TopMargin='10' BottomMargin='10' Width='3' ImageLeft='0' ImageTop='596' ImageWidth='3' ImageHeight='186' AltImageLeft='949' AltImageTop='173' />
 			<Static Align='Right' LeftMargin='10' RightMargin='10' Width='3' ImageLeft='298' ImageTop='596' ImageWidth='3' ImageHeight='186' AltImageLeft='1247' AltImageTop='173' />
--->
+		-->
 
 			<Static Align='Client' LeftMargin='10' RightMargin='10' TopMargin='10' BottomMargin='10' ImageLeft='0' ImageTop='495' ImageWidth='360' ImageHeight='30' AltImageLeft='363' AltImageTop='495' >
 				<Static Align='Top' LeftMargin='10' RightMargin='10' Height='30' ImageLeft='0' ImageTop='495' ImageWidth='360' ImageHeight='30' AltImageLeft='363' AltImageTop='495' >
@@ -400,121 +400,7 @@
 	</ControlBoxSkinArea>
 #endif
 
-#if<SkinStyle==Black>
-	#include<ChatBlack.xml #PREV_ARG>
-#else
-	#include<Chat.xml #PREV_ARG>
-#endif
-
-	<BroadcastListSkinArea AlphaMode='1' WidthLimit='380' HeightLimit='214' UseWindowFrame='0' >
-		<Control>
-			<Static Align='Top' LeftMargin='1' RightMargin='1' Height='30' ImageWidth='360' ImageLeft='0' ImageTop='495' ImageHeight='35' AltImageLeft='363' AltImageTop='495' >
-				<Layout Align='Left' Width='10' />
-				<Label Align='Left' Width='100' ColorX='90' ColorY='4' FontName='Roboto Bold' AutoSize='1' FontSize='13' VertAlignment='1' Text='$MAIN_TAB_PROGRAM' />
-
-				<Layout Align='Right' Width='7' />
-				<Button Align='Right' Tooltip='$CMD_CLOSE_WINDOW' CmdID='ID_BROADCAST_LIST_WINDOW' Width='15' ImageLeft='60' ImageTop='15' ImageWidth='15' ImageHeight='15' />
-				<Layout Align='Right' Width='7' />
-				<Button Align='Right' CmdID='CMD_TOPMOST_WINDOW' AutoVisible='-1' Width='15' ImageLeft='300' ImageTop='15' ImageWidth='15' ImageHeight='15' />
-				<Button Align='Right' CmdID='CMD_TOPMOST_WINDOW' AutoVisible='1' Width='15' ImageLeft='120' ImageTop='15' ImageWidth='15' ImageHeight='15' />
-				<Layout Align='Right' Width='7' />
-				<#CONTROL1 Align='Right' Tooltip='$CMD_ATTACH_MAIN' CmdID='CMD_ATTACH_BROADCAST' ImageLeft='360' ImageTop='15' Width='15' Height='15' />
-				<#CONTROL2 Align='Right' Width='7' />
-				<Slider Align='Right' CmdID='CMD_TRANS_BR' OffsetTop='7' Width='60' ImageWidth='70' ImageHeight='15' ThumbWidth='15' ThumbHeight='15' ImageLeft='90' ImageTop='195' BackImageLeft='90' BackImageTop='210' ThumbImageLeft='90' ThumbImageTop='225' LeftMargin='5' RightMargin='5' />
-			</Static>
-
-			<Static Align='Bottom' LeftMargin='100' RightMargin='10' TopMargin='0' BottomMargin='0' ImageLeft='0' ImageTop='401' ImageWidth='328'  ImageHeight='3' Height='3' AltImageLeft='330' AltImageTop='401' />
-
-			<Static Align='Left' LeftMargin='0' RightMargin='0' TopMargin='150' BottomMargin='20' ImageLeft='0' ImageWidth='1' ImageTop='168' ImageHeight='233' Width='3' AltImageLeft='330' AltImageTop='168' />
-			<Static Align='Right' LeftMargin='0' RightMargin='0' TopMargin='150' BottomMargin='20' ImageLeft='325' ImageWidth='1' ImageTop='168' ImageHeight='233' Width='3' AltImageLeft='655' AltImageTop='168' />
-
-  		<Static Align='Client' Contain='CMD_BROADCAST_HOLDER'>
-    		<Static Align='Client' Contain='CMD_BROADCAST_LIST' />
-			</Static>
-		</Control>
-	</BroadcastListSkinArea>
-
-	<BroadcastToolSkinArea Image='BRTool.png' AlphaMode='1' Width='321' Height='556' UseWindowFrame='0' >
-		<Control>
-			<Static Align='Top' LeftMargin='100' RightMargin='20' TopMargin='0' BottomMargin='0' ImageLeft='0' ImageTop='885' ImageWidth='326' ImageHeight='34' Height='34' AltImageLeft='340' AltImageTop='885' >
-				<Layout Align='Left' Width='10' />
-				<Label Align='Left' Width='100' ColorX='512' ColorY='54' FontName='Roboto' AutoSize='1' FontSize='11' FontBold='1' VertAlignment='1' Text='$MAIN_POPUP_CAST' />
-				<Layout Align='Left' Width='10' />
-				<Button Align='Left' CmdID='CMD_BROADCAST_GUIDE' Width='52' ImageLeft='0' ImageTop='52' ImageWidth='52' ImageHeight='16' />
-
-				<Layout Align='Right' Width='10' />
-				<Button Align='Right' Tooltip='$CMD_CLOSE_WINDOW' CmdID='ID_BROADCAST_TOOL_WINDOW' Width='14' ImageLeft='195' ImageTop='20' ImageWidth='14' ImageHeight='13' />
-				<Layout Align='Right' Width='10' />
-				<Button Align='Right' CmdID='CMD_TOPMOST_WINDOW' AutoVisible='-1' Width='14' Image='Slider.png' ImageLeft='0' ImageTop='10' ImageWidth='14' ImageHeight='13' />
-				<Button Align='Right' CmdID='CMD_TOPMOST_WINDOW' AutoVisible='1' Width='14' Image='Slider.png' ImageLeft='65' ImageTop='10' ImageWidth='14' ImageHeight='13' />
-				<Layout Align='Right' Width='10' />
-				<Slider Align='Right' CmdID='CMD_TRANS_BT' Image='Slider.png' OffsetTop='13' Width='50' ImageWidth='28' ImageHeight='8' ThumbWidth='15' ThumbHeight='8' ImageLeft='0' ImageTop='42' BackImageLeft='0' BackImageTop='30' ThumbImageLeft='0' ThumbImageTop='57' LeftMargin='5' RightMargin='5' />
-			</Static>
-
-			<Static Align='Bottom' LeftMargin='100' RightMargin='20' TopMargin='0' BottomMargin='0' ImageLeft='0' ImageTop='1165' ImageWidth='326' ImageHeight='3' Height='3' AltImageLeft='342' AltImageTop='1165' />
-
-			<Static Align='Left' LeftMargin='0' RightMargin='0' TopMargin='50' BottomMargin='50' ImageLeft='0' ImageTop='919' ImageWidth='3' ImageHeight='246' Width='3' AltImageLeft='340' AltImageTop='919' />
-      		<Static Align='Right' LeftMargin='0' RightMargin='0' TopMargin='50' BottomMargin='50' ImageLeft='323' ImageTop='919' ImageWidth='3' ImageHeight='246' Width='3' AltImageLeft='663' AltImageTop='919' />
-
-			<Static Align='Top' LeftMargin='1' RightMargin='20' TopMargin='0' BottomMargin='0' ImageLeft='343' ImageTop='919' ImageWidth='320' ImageHeight='31' Height='31' >
-				<Button CmdID='CMD_BROADCAST_DEVICE' Left='0' Top='0' Width='78' Height='30' ImageLeft='0' ImageTop='496'>
-					<Label FontName='Roboto' FontSize='11' FontBold='1' Text='$CAST_TOOL_DEVICE' HoriAlignment='1' VertAlignment='1' ColorX='512' ColorY='23' />
-				</Button>
-				<Button CmdID='CMD_BROADCAST_INFO' Left='78' Top='0' Width='78' Height='30' ImageLeft='0' ImageTop='496'>
-					<Label FontName='Roboto' FontSize='11' FontBold='1' Text='$CAST_TOOL_INFO' HoriAlignment='1' VertAlignment='1' ColorX='512' ColorY='23' />
-				</Button>
-				<Button CmdID='CMD_BROADCAST_EFFECT' Left='156' Top='0' Width='78' Height='30' ImageLeft='0' ImageTop='496'>
-					<Label FontName='Roboto' FontSize='11' FontBold='1' Text='$CAST_TOOL_EFFECT' HoriAlignment='1' VertAlignment='1' ColorX='512' ColorY='23' />
-				</Button>
-				<Button CmdID='CMD_BROADCAST_SAVE' Left='234' Top='0' Width='78' Height='30' ImageLeft='0' ImageTop='496'>
-					<Label FontName='Roboto' FontSize='11' FontBold='1' Text='$CAST_TOOL_SAVE' HoriAlignment='1' VertAlignment='1' ColorX='512' ColorY='23' />
-				</Button>
-			</Static>
-
-			<Static Align='Bottom' LeftMargin='100' RightMargin='20' TopMargin='0' BottomMargin='0' ImageLeft='3' ImageTop='1133' ImageWidth='320' ImageHeight='32' Height='32' >
-				<Button CmdID='CMD_BROADCAST_START' Left='-40' Top='6' Width='62' Height='22' ImageLeft='405' ImageTop='678' HoriCenter='1' />
-				<Button CmdID='CMD_BROADCAST_UPDATE' Left='-40' Top='6' Width='62' Height='22' ImageLeft='405' ImageTop='705' HoriCenter='1' />
-				<Button CmdID='CMD_BROADCAST_STOP' Left='28' Top='6' Width='62' Height='22' ImageLeft='405' ImageTop='759' HoriCenter='1' />
-				<Button CmdID='CMD_BROADCAST_PREVIEW' Left='28' Top='6' Width='62' Height='22' ImageLeft='405' ImageTop='732' HoriCenter='1' />
-				<Button CmdID='CMD_BROADCAST_ADV' Left='245' Top='6' Width='62' Height='22' ImageLeft='405' ImageTop='786' />
-			</Static>
-
-			<Static Align='Client' Contain='CMD_BROADCAST_TOOL' />
-		</Control>
-
-		<Common>
-			<BroadcastDevice0 Left='0' Top='236' Width='102' Height='29' PosX='7' PosY='6' />
-			<BroadcastDevice1 Left='0' Top='275' Width='102' Height='29' PosX='108' PosY='6' />
-			<BroadcastDevice2 Left='0' Top='314' Width='96' Height='29' PosX='209' PosY='6' />
-			<BroadcastDevice3 Left='0' Top='353' Width='102' Height='29' PosX='7' PosY='34' />
-			<BroadcastDevice4 Left='0' Top='392' Width='102' Height='29' PosX='108' PosY='34' />
-			<BroadcastDevice5 Left='0' Top='431' Width='96' Height='29' PosX='209' PosY='34' />
-			<BroadcastBkgndColor Left='150' Top='1000' />
-			<BroadcastHotTextColor Left='60' Top='110' />
-			<BroadcastButton Left='405' Top='813' Width='62' Height='21' />
-			<BroadcastFileBkgnd Left='311' Top='193' Width='299' Height='26' LeftMargin='100' RightMargin='10' TopMargin='7' />
-			<BroadcastFileDel Left='-33' Top='6' Width='25' Height='13' ImageLeft='323' ImageTop='646' />
-			<BroadcastFileAdd Left='-61' Top='6' Width='25' Height='13' ImageLeft='214' ImageTop='646' />
-			<BroadcastFileImage1 Left='-68' Top='8' Width='2' Height='11' ImageLeft='208' ImageTop='647' />
-			<BroadcastFileLast Left='-85' Top='8' Width='12' Height='12' ImageLeft='156' ImageTop='647' />
-			<BroadcastFileFirst Left='-98' Top='8' Width='12' Height='12' ImageLeft='104' ImageTop='647' />
-			<BroadcastFileDown Left='-111' Top='8' Width='12' Height='12' ImageLeft='52' ImageTop='647' />
-			<BroadcastFileUp Left='-124' Top='8' Width='12' Height='12' ImageLeft='0' ImageTop='647' />
-			<BroadcastFileImage2 Left='0' Top='0' Width='0' Height='0' ImageLeft='0' ImageTop='0' />
-			<BroadcastEffectPosBkgnd Left='0' Top='105' Width='45' Height='38' />
-			<BroadcastEffectPosBtn0 Left='2' Top='2' Width='14' Height='11' ImageLeft='0' ImageTop='88' />
-			<BroadcastEffectPosBtn1 Left='16' Top='2' Width='14' Height='11' ImageLeft='56' ImageTop='88' />
-			<BroadcastEffectPosBtn2 Left='30' Top='2' Width='14' Height='11' ImageLeft='112' ImageTop='88' />
-			<BroadcastEffectPosBtn3 Left='2' Top='25' Width='14' Height='11' ImageLeft='168' ImageTop='88' />
-			<BroadcastEffectPosBtn4 Left='16' Top='25' Width='14' Height='11' ImageLeft='224' ImageTop='88' />
-			<BroadcastEffectPosBtn5 Left='30' Top='25' Width='14' Height='11' ImageLeft='280' ImageTop='88' />
-			<BroadcastEffectFontBkgnd Left='0' Top='193' Width='291' Height='23' LeftMargin='160' RightMargin='20' />
-			<BroadcastEffectFontBtn0 Left='9' Top='6' Width='19' Height='13' ImageLeft='0' ImageTop='162' />
-			<BroadcastEffectFontBtn1 Left='43' Top='6' Width='29' Height='13' ImageLeft='85' ImageTop='162' />
-			<BroadcastEffectFontBtn2 Left='87' Top='6' Width='48' Height='13' ImageLeft='210' ImageTop='162' />
-			<BroadcastEffectFontBtn3 Left='152' Top='6' Width='49' Height='13' ImageLeft='411' ImageTop='162' />
-		</Common>
-	</BroadcastToolSkinArea>
+#include<Chat.xml #PREV_ARG>
 
 #if<SkinType==Touch>
 	<PlaylistSkinArea Image='TouchPlaylist.png' AlphaMode='1' WidthLimit='220' HeightLimit='150'
@@ -582,7 +468,7 @@
 	</PlaylistSkinArea>
 #else
 	<!-- PlayList Setting -->
-	<PlaylistSkinArea Image='Main.png' AlphaMode='1' WidthLimit='380' HeightLimit='214'
+	<PlaylistSkinArea Image='Main.png' AlphaMode='1' WidthLimit='300' HeightLimit='214'
 		SelBkgndColorX='30' SelBkgndColorY='4' FrameColorX='30' FrameColorY='4'
 	  BkgndColor1X='0' BkgndColor1Y='4' BkgndColor2X='0' BkgndColor2Y='4'
 	  CurTextColorX='150' CurTextColorY='4' SelTextColorX='90' SelTextColorY='4' TextColorX='90' TextColorY='4' PlayedTextColorX='60' PlayedTextColorY='4'
@@ -616,12 +502,11 @@
 				<Slider Align='Right' CmdID='CMD_TRANS_PL' OffsetTop='7' Width='60' ImageWidth='70' ImageHeight='15' ThumbWidth='15' ThumbHeight='15' ImageLeft='90' ImageTop='195' BackImageLeft='90' BackImageTop='210' ThumbImageLeft='90' ThumbImageTop='225' LeftMargin='5' RightMargin='5' />
 			</Static>
 
-<!-- An ugly thing called border
+	<!-- An ugly thing called border
 			<Static Align='Bottom' LeftMargin='10' RightMargin='10' TopMargin='0' BottomMargin='0' ImageLeft='0' ImageWidth='360' ImageTop='735' ImageHeight='2' Height='1' AltImageLeft='363' AltImageTop='735' />
 			<Static Align='Right' LeftMargin='0' RightMargin='0' TopMargin='150' BottomMargin='20' ImageLeft='0' ImageWidth='5' ImageTop='710' ImageHeight='25' Width='5' AltImageLeft='0' AltImageTop='710' />
--->
 			<Static Align='Left' LeftMargin='1' RightMargin='1' TopMargin='1' BottomMargin='46' ImageLeft='722' ImageWidth='2' ImageTop='495' ImageHeight='240' Width='1' AltImageLeft='722' AltImageTop='495' />
-
+ 	-->
 			<Static Align='Client' Contain='CMD_PLAYLIST_HOLDER'>
 				<Static Align='Bottom' LeftMargin='10' RightMargin='10' TopMargin='0' BottomMargin='0' ImageWidth='360' ImageLeft='0' ImageTop='710' ImageHeight='25' Height='28'>
 					<Layout Align='Left' Width='8' />
@@ -631,14 +516,14 @@
 					<Button Tooltip='$CMD_PLAYLIST_BOTTOM' Cursor='HAND' CmdID='CMD_PLAYLIST_BOTTOM' Align='Left' Width='20' ImageLeft='300' ImageTop='356' ImageWidth='25' ImageHeight='25' VertAlignment='1' OffsetTop='-4' />
 					<Layout Align='Left' Width='8' />
 
-<!--disabler
+	<!--disabler
 					<Button Align='Left' Tooltip='$ID_OPEN_FILE' Cursor='HAND' CmdID='ID_BASE_OPEN' Width='25' ImageLeft='0' ImageTop='306' ImageWidth='25' ImageHeight='25' OffsetTop='-4' />
--->
+	-->
 					<Layout Align='Left' Width='5' />
 					<Button Align='Left' Tooltip='$PLAYLIST_ADD' Cursor='HAND' CmdID='CMD_PLAYLIST_ADD'  Width='25' ImageLeft='0' ImageTop='381' ImageWidth='25' ImageHeight='25' OffsetTop='-1' />
 					<Layout Align='Left' Width='5' />
 					<Button Align='Left' Tooltip='$PLAYLIST_DEL' Cursor='HAND' CmdID='CMD_PLAYLIST_DEL'  Width='25' ImageLeft='300' ImageTop='381' ImageWidth='25' ImageHeight='25' OffsetTop='-1' />
-<!--disabler
+	<!--disabler
 						<Layout Width='5' />
 						<Label FontName='Roboto' AutoSize='1' FontSize='11' Text='$PLAYLIST_ADD' VertAlignment='1' ColorX='75' ColorY='4' OverColorX='518' OverColorY='198' PushColorX='518' PushColorY='180' />
 						<Layout Width='5' />
@@ -657,7 +542,7 @@
 						<Layout Width='5' />
 					</Button>
 					<Layout Align='Left' Width='4' />
--->
+	-->
 					<Layout Align='Right' Width='28' />
 					<Label Align='Right' CmdID='CMD_PLAYLIST_TOTAL_TIME_MESSAGE' AutoVisible='1' AutoSize='1' Enabled='1' Width='5' ColorX='75' ColorY='4' FontName='Roboto Bold' FontSize='11' VertAlignment='1' OffsetTop='-4' />
 					<Layout Align='Right' CmdID='CMD_PLAYLIST_TOTAL_TIME_MESSAGE' AutoVisible='1' Width='4' />
@@ -665,7 +550,7 @@
 				</Static>
 
 				<Static Align='Bottom' LeftMargin='4' RightMargin='4' TopMargin='0' BottomMargin='0' ImageWidth='360' ImageLeft='0' ImageTop='710' ImageHeight='25' Height='18' />
-<!-- Disabled for now
+	<!-- Disabled for now
 					<Layout Align='Left' Width='10' />
 					<Button Align='Left' Tooltip='$MAIN_USE_EXPLORER' Cursor='HAND' CmdID='CMD_USE_EXPLORER' DownFlag='1' AutoVisible='100' Width='23' ImageLeft='0' ImageTop='423' ImageWidth='23' ImageHeight='22' />
 					<Image Align='Client' ImageLeft='490' ImageTop='40' ImageWidth='120' ImageHeight='20' LeftMargin='4' RightMargin='4' TopMargin='4' BottomMargin='4' OffsetTop='1' OffsetLeft='10' OffsetWidth='-50' OffsetHeight='-4'  >
@@ -674,7 +559,7 @@
 				</Static>
 
 				<Static Align='Bottom' LeftMargin='4' RightMargin='4' TopMargin='0' BottomMargin='0' ImageWidth='360' ImageLeft='360' ImageTop='735' ImageHeight='2' Height='1' />
- -->
+	 -->
 				<Static Align='Client' Contain='CMD_PLAY_LIST_ALBUM_TAB' />
 			</Static>
 

@@ -21,8 +21,6 @@
 				</ImageReplace>
 				#include<TouchRight.txt>
 			#else
-				#include<BottomLeft.txt>
-				#include<Right.txt>
 				#include<RightAttach.xml>
 			#endif
 			<Static Align='Client' Contain='CMD_VIDEO_WINDOW' />
@@ -33,11 +31,9 @@
 		<Control>
 			#if<SkinType==Touch>
 				#include<TouchTop.txt>
-				#include<TopCast.xml>
 				#include<TouchBottom.txt>
 			#else
 				#include<TopCommon.xml>
-				#include<TopCast.xml>
 				#include<BottomVideo.xml>
 			#endif
 			#include<Popup.xml>
@@ -64,14 +60,10 @@
 				</ImageReplace>
 				#include<TouchTop.txt>
 				#include<TouchRight.txt>
-				#include<TopCast.xml>
 				#include<TouchBottom.txt>
 			#else
-				#include<BottomLeft.txt>
-				#include<Right.txt>
 				#include<TopCommon.xml>
 				#include<RightAttach.xml>
-				#include<TopCast.xml>
 				#include<BottomVideo.xml>
 			#endif
 			#include<Popup.xml>
